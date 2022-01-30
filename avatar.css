@@ -1,0 +1,41 @@
+:root{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(24,23,25);
+    font-size: 62.5%;
+    --primary-color: #77A8FD;
+}
+
+.avatar-lg{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
+    margin: 1rem;
+}
+
+.avatar-md{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin: 1rem;
+}
+
+.avatar-sm{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5rem;
+    margin: 1rem;
+}
+
+.avatar-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    font-size: 4rem;
+}
+
+#avatar-text{
+    display: flex;
+    align-items: baseline;
+}
