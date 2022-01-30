@@ -1,2 +1,2 @@
 # Arti-ui
- This is the component library
+ This is my component library
