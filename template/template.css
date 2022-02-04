@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+:root {
+  font-family: "Montserrat", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+#logo-container {
+  display: flex;
+}
+
+#logo {
+  width: 200px;
+  height: 100px;
+  margin-top: -1rem;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0.75em 0.75em 1em rgba(0, 0, 0, 0.3);
+  width: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+
+#logo-name {
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  margin-left: -2rem;
+  letter-spacing: 0.1rem;
+}
+
+#github-icon {
+  margin: 3rem 3rem 0rem 2rem;
+}
+
+#dark-mode {
+  margin-top: 1.5rem;
+}
+
+#main-content {
+}
+
+#side-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 8rem;
+}
+
+#side-bar-links {
+  font-size: 2.4rem;
+  list-style: none;
+  margin-top: 1rem;
+  padding-right: 4rem;
+}
+
+.side-bar-item {
+  padding: 1rem;
+}
+
+#component {
+  margin-right: 20rem;
+  padding-top: 10rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
