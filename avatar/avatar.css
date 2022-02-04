@@ -3,7 +3,9 @@
   margin: 0;
   background-color: rgb(24, 23, 25);
   font-size: 62.5%;
-  --primary-color: #77a8fd;
+  --primary-color: #21b0f2;
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+  font-family: "Montserrat", sans-serif;
 }
 
 /* avatar design */
