@@ -52,7 +52,7 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  padding-top: 8rem;
+  margin-top: 8rem;
 }
 
 #side-bar-links {
