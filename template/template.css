@@ -49,6 +49,7 @@ header {
 }
 
 #main-content {
+  margin-left: 10rem;
 }
 
 #side-bar {
@@ -82,3 +83,4 @@ a {
 a:visited {
   color: black;
 }
+
