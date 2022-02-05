@@ -1,47 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Speed CL | Alert</title>
-    <link rel="stylesheet" href="alert.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <link rel="icon" type="image/x-icon" href="speed_logo-cropped.png">
-</head>
-<body>
+    <link rel="stylesheet" href="alert.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="speed_logo-cropped.png" />
+  </head>
+
+  <body>
     <header>
-        <div id="logo-container">
-        <img id="logo" src="speed logo.svg" alt="logo">
+      <div id="logo-container">
+        <img id="logo" src="speed logo.svg" alt="logo" />
         <div id="logo-name">Speed CL</div>
-        </div>
-        <div id="header-icon-container">
-        <img src="dark-mode.svg" alt="dark mode icon" id="dark-mode">
-        <img src="github.svg" alt="github icon" id="github-icon">
-        </div>
+      </div>
+      <div id="header-icon-container">
+        <img src="dark-mode.svg" alt="dark mode icon" id="dark-mode" />
+        <img src="github.svg" alt="github icon" id="github-icon" />
+      </div>
     </header>
     <div id="main-content">
-        <div id="component">
+      <div id="component">
+        <div class="alert-heading">Alert</div>
+        <div class="seperator"></div>
+        <div class="alert-description">
+          An alert displays a short, important message in a way that attracts
+          the user's attention without interrupting the user's task.
         </div>
-        <aside id="side-bar">
-            <ul id="side-bar-links">
-                <li class="side-bar-item"><a href="#">Avatar</a></li>
-                <li class="side-bar-item"><a href="#">Alert</a></li>
-                <li class="side-bar-item"><a href="#">Badge</a></li>
-                <li class="side-bar-item"><a href="#">Butto</a></li>
-                <li class="side-bar-item"><a href="#">Card</a></li>
-                <li class="side-bar-item"><a href="#">Image</a></li>
-                <li class="side-bar-item"><a href="#">Input</a></li>
-                <li class="side-bar-item"><a href="#">Text Utilities</a></li>
-                <li class="side-bar-item"><a href="#">Lists</a></li>
-                <li class="side-bar-item"><a href="#">Navigation</a></li>
-                <li class="side-bar-item"><a href="#">Modal</a></li>
-                <li class="side-bar-item"><a href="#">Rating</a></li>
-            </ul>
-          </aside>
+        <div class="seperator"></div>
+        <div class="alert-heading">Simple Alerts</div>
+        <div class="alert-description">
+          There are four severity levels available each with an icon and color.
+        </div>
+      <div class="alert-description">To use these alerts just use <span class="highlight">class</span> name <span class="highlight">alert</span> and add <span class="highlight">id</span> according to alert type: <span class="highlight-code">alert-primary</span> or <span class="highlight-code">alert-success</span> or <span class="highlight-code">alert-warning</span> or <span class="highlight-code">alert-error</span>.</div>
+      <div class="alert-description">You can also  add icons as per your need using <span class="highlight">id</span> according to icon type: <span class="highlight-code">icon-primary</span> or <span class="highlight-code">icon-success</span> or <span class="highlight-code">icon-warning</span> or <span class="highlight-code">icon-error</span>.</div>
+        <div class="alert" id="alert-primary">This is a primary alert<img id="icon-primary" src="star-light.svg"></div>
+        <div class="alert" id="alert-success">This is a success alert<img id="icon-success" src="success-light.svg"></div>
+        <div class="alert" id="alert-warning">
+          This is a warning alert<img
+            id="icon-warning"
+            src="warning_amber_black_18dp.svg"
+          />
+        </div>
+        <div class="alert" id="alert-error">This is an error alert<img id="icon-error" src="error_light.svg"></div>
+        <div class="alert-snippet">Code Snippet</div>
+        <iframe
+           src="https://carbon.now.sh/embed/8gP0sxxC4R1uQbC52Ek1"
+            style="width: 993px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+           sandbox="allow-scripts allow-same-origin">
+         </iframe>
+        <div class="seperator"></div>
+        <div class="alert-heading">Alert with close button</div>
+        <div class="alert-description">This is an alert with a close button, you can add JS to this buttton to close it</div>
+        <div class="alert-description">To use this, give <span class="highlight">class</span> as alert and <span id="highlight">id</span> as <span class="highlight-code">alert-close</span>.</div>
+        <div class="alert" id="alert-close">This is an alert with close button <button id="close"><img src="close-light.svg"></button></div>
+        <div class="alert-snippet">Code Snippet</div>
+        <iframe
+  src="https://carbon.now.sh/embed/bYBNA4IwOweLgIjihJFQ"
+  style="width: 1024px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      </div>
+      <aside id="side-bar">
+        <ul id="side-bar-links">
+          <li class="side-bar-item"><a href="#">Avatar</a></li>
+          <li class="side-bar-item"><a href="#">Alert</a></li>
+          <li class="side-bar-item"><a href="#">Badge</a></li>
+          <li class="side-bar-item"><a href="#">Button</a></li>
+          <li class="side-bar-item"><a href="#">Card</a></li>
+          <li class="side-bar-item"><a href="#">Image</a></li>
+          <li class="side-bar-item"><a href="#">Input</a></li>
+          <li class="side-bar-item"><a href="#">Text Utilities</a></li>
+          <li class="side-bar-item"><a href="#">Lists</a></li>
+          <li class="side-bar-item"><a href="#">Navigation</a></li>
+          <li class="side-bar-item"><a href="#">Modal</a></li>
+          <li class="side-bar-item"><a href="#">Rating</a></li>
+        </ul>
+      </aside>
     </div>
     <script src="app.js"></script>
     <script src="alert.js"></script>
-</body>
+  </body>
 </html>
