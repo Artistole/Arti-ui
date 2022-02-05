@@ -123,11 +123,13 @@ iframe {
   margin-top: 1rem;
 }
 
+/* alert-heading */
 .alert-heading {
   font-size: 3rem;
   font-weight: 500;
 }
 
+/* alert description */
 .alert-description {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -135,6 +137,7 @@ iframe {
   width: 90%;
 }
 
+/* alert box */
 .alert {
   padding: 1rem;
   border: 1px solid black;
@@ -147,6 +150,8 @@ iframe {
   display: flex;
   justify-content: baseline;
 }
+
+/* styling for alert boxes */
 
 #alert-primary {
   background-color: var(--primary-color);
@@ -163,6 +168,8 @@ iframe {
 #alert-error {
   background-color: var(--error-color);
 }
+
+/* styling for alert icons */
 
 #icon-warning {
   margin-left: 17rem;
