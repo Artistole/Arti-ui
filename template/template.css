@@ -5,6 +5,9 @@
   margin: 0px;
   font-size: 62.5%;
   box-sizing: border-box;
+  --primary-color: #21b0f2;
+  --header-bg-light-color: #fff;
+  --header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
 }
 
 #logo-container {
@@ -12,8 +15,8 @@
 }
 
 #logo {
-  width: 200px;
-  height: 100px;
+  width: 20rem;
+  height: 10rem;
   margin-top: -1rem;
 }
 
@@ -22,9 +25,9 @@ header {
   position: fixed;
   flex-direction: row;
   justify-content: space-between;
-  box-shadow: 0.75em 0.75em 1em rgba(0, 0, 0, 0.3);
+  box-shadow: 0.75em 0.75em 1em var(--header-boxshadow-light-color);
   width: 100%;
-  background-color: white;
+  background-color: var(--header-bg-light-color);
   top: 0;
   left: 0;
 }
