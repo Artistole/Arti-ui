@@ -8,6 +8,8 @@
   --primary-color: #21b0f2;
   --header-bg-light-color: #fff;
   --header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
+  --seperator: #8a8a8f;
+  --code-highlight: #FFA07A;
 }
 
 #logo-container {
@@ -35,7 +37,7 @@ header {
 #logo-name {
   font-weight: 600;
   font-size: 2.5rem;
-  padding-top: 2rem;
+  margin-top: 2rem;
   margin-left: -2rem;
   letter-spacing: 0.1rem;
 }
@@ -49,6 +51,7 @@ header {
 }
 
 #main-content {
+  margin-left: 10rem;
 }
 
 #side-bar {
@@ -62,7 +65,7 @@ header {
   font-size: 2.4rem;
   list-style: none;
   margin-top: 1rem;
-  padding-right: 4rem;
+  margin-right: 4rem;
 }
 
 .side-bar-item {
@@ -71,7 +74,7 @@ header {
 
 #component {
   margin-right: 20rem;
-  padding-top: 10rem;
+  margin-top: 12rem;
 }
 
 a {
@@ -81,4 +84,37 @@ a {
 
 a:visited {
   color: black;
+}
+
+#seperator {
+  height: 0.0625rem;
+  width: 90%;
+  background-color: var(--seperator);
+  margin-bottom: 3rem;
+}
+
+.highlight {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+/* highlighting code */
+.highlight-code{
+  color: var(--code-highlight);
+  font-weight: 700;
+}
+
+/* iframe */
+iframe{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* component css */
+
+/* repalce name */
+.component-snippet {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 1rem;  
 }
