@@ -9,7 +9,7 @@
   --header-bg-light-color: #fff;
   --header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
   --seperator: #8a8a8f;
-  --code-highlight: #FFA07A;
+  --code-highlight: #ffa07a;
 }
 
 #logo-container {
@@ -99,13 +99,13 @@ a:visited {
 }
 
 /* highlighting code */
-.highlight-code{
+.highlight-code {
   color: var(--code-highlight);
   font-weight: 700;
 }
 
 /* iframe */
-iframe{
+iframe {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -113,8 +113,8 @@ iframe{
 /* component css */
 
 /* repalce name */
-.component-snippet {
+.badge-snippet {
   font-size: 2rem;
   font-weight: 500;
-  margin-top: 1rem;  
+  margin-top: 1rem;
 }
