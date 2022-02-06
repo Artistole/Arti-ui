@@ -9,7 +9,10 @@
   --header-bg-light-color: #fff;
   --header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
   --seperator: #8a8a8f;
-  --code-highlight: #FFA07A;
+  --code-highlight: #ffa07a;
+  --active-badge: rgb(0, 255, 0);
+  --offline-badge: #dcdcfd;
+  --busy-badge: red;
 }
 
 #logo-container {
@@ -111,32 +114,21 @@ a:visited {
   width: 5rem;
 }
 
-/* text avatar design */
-.avatar-txt {
+.avatar-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--primary-color);
-  font-size: 4rem;
-}
-
-/* text avatar container */
-#avatar-container {
-  display: flex;
-  align-items: baseline;
 }
 
 /* avatar heading */
-.avatar-heading {
+.badge-heading {
   font-size: 3rem;
   font-weight: 500;
 }
 
 /* avatar snippet */
-.avatar-snippet {
+.badge-snippet {
   font-size: 2rem;
   font-weight: 500;
-  margin-top: 1rem;  
+  margin-top: 1rem;
 }
 
 /* seperating line */
@@ -148,12 +140,16 @@ a:visited {
 }
 
 /* avatar description */
-.avatar-description,
-.avatar-inner-description {
+.badge-description {
   margin-top: 3rem;
   margin-bottom: 3rem;
   font-size: 1.5rem;
   width: 90%;
+}
+
+#badge-container {
+  display: flex;
+  align-items: flex-end;
 }
 
 /* highlighting text */
@@ -163,14 +159,67 @@ a:visited {
 }
 
 /* highlighting code */
-.highlight-code{
+.highlight-code {
   color: var(--code-highlight);
   font-weight: 700;
 }
 
 /* iframe */
-iframe{
+iframe {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
+.badge {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 99999rem;
+  position: relative;
+  bottom: 2rem;
+  right: 4rem;
+}
+
+.badge-online {
+  background-color: var(--active-badge);
+}
+
+.badge-offline {
+  background-color: var(--offline-badge);
+}
+
+.badge-away {
+  background-color: rgb(255, 217, 0);
+  right: 3.5rem;
+}
+
+.badge-busy {
+  background-color: var(--busy-badge);
+  height: 1.5rem;
+  width: 1.5rem;
+  bottom: 1.5rem;
+  right: 3rem;
+}
+
+.badge-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.badge-number {
+  background-color: red;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 9999999rem;
+  height: 2rem;
+  width: 2rem;
+  bottom: 5rem;
+  left: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.badge-wrapper {
+  margin-left: 2rem;
+}

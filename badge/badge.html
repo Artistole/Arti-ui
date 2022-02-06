@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed CL | Badge</title>
+    <link rel="stylesheet" href="badge.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="speed_logo-cropped.png">
+</head>
+
+<body>
+    <header>
+        <div id="logo-container">
+            <img id="logo" src="speed logo.svg" alt="logo">
+            <div id="logo-name">Speed CL</div>
+        </div>
+        <div id="header-icon-container">
+            <img src="dark-mode.svg" alt="dark mode icon" id="dark-mode">
+            <img src="github.svg" alt="github icon" id="github-icon">
+        </div>
+    </header>
+    <div id="main-content">
+        <div id="component">
+            <div class="badge-heading">Badge</div>
+            <div id="seperator"></div>
+            <div class="badge-description">
+                A badge is a counter shown on icons like cart, notification and avatars. It is also used to show online and offline status of a person.</div>
+            <div id="seperator"></div>
+            <div class="badge-heading">Badge on avatars</div>
+            <div class="badge-description">
+                Badge on avatar can be used to show the current status of a user. It can be used to show whether the user is online or offline or busy or away.
+            </div>
+            <div id="badge-container">
+                <div class="badge-wrapper">  
+                <img src="img-avatar/male.png" alt="avatar" class="avatar avatar-lg"><div class="badge badge-online"></div>
+                </div>
+                <div class="badge-wrapper">  
+                    <img src="img-avatar/male.png" alt="avatar" class="avatar avatar-lg"><div class="badge badge-offline"></div>
+                </div>
+                <div class="badge-wrapper"> 
+                <img src="img-avatar/female.png" alt="avatar" class="avatar avatar-md"><div class="badge badge-away"></div>
+                </div>
+                <div class="badge-wrapper"> 
+                <img src="img-avatar/user.png" alt="avatar" class="avatar avatar-sm"><div class="badge badge-busy"></div>
+                </div>
+            </div>
+            <div class="badge-snippet">code snippet:</div>
+            <div class="badge-description">
+                You can use the previous avatar <span class="highlight">classes</span> for avatar and then use <span class="highlight">class</span>
+                <span class="highlight-code">badge</span> and <span class="highlight-code">badge-online</span> or 
+                <span class="highlight-code">badge-offline</span> or
+                <span class="highlight-code">badge-away</span>
+                or
+                <span class="highlight-code">badge-busy</span> as per the requirement.
+            </div>
+            <iframe
+            src="https://carbon.now.sh/embed/7rW5VPRgCvkrROob99CB"
+            style="width: 909px; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+             sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div id="seperator"></div>
+            <div class="badge-heading">Badge on icons</div>
+            <div class="badge-description">
+                Number Badge is used to show the no. of items present in the parent component.
+            </div>
+            <div id="badge-container">
+                <div class="badge-wrapper">  
+                <img src="mail.svg" alt="mail" class="badge-icon"><div class="badge badge-number">2</div>
+                </div>
+                <div class="badge-wrapper"> 
+                <img src="cart.svg" alt="avatar" class="badge-icon"><div class="badge badge-number">9</div>
+                </div>
+             </div>
+            </div>
+            <div class="badge-snippet">code snippet:</div>
+            <div class="badge-description">
+                Use <span class="highlight">class</span> <span class="highlight-code">badge-icon</span> to style the icon and use <span class="highlight">class</span> <span class="highlight-code">badge badge-number</span> to position the badge
+            </div>
+            <iframe
+            src="https://carbon.now.sh/embed/jB7D1aDwcgUE10NqiTSe"
+            style="width: 858px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+        </div>
+        <aside id="side-bar">
+            <ul id="side-bar-links">
+                <li class="side-bar-item"><a href="#">Avatar</a></li>
+                <li class="side-bar-item"><a href="#">Alert</a></li>
+                <li class="side-bar-item"><a href="#">Badge</a></li>
+                <li class="side-bar-item"><a href="#">Button</a></li>
+                <li class="side-bar-item"><a href="#">Card</a></li>
+                <li class="side-bar-item"><a href="#">Image</a></li>
+                <li class="side-bar-item"><a href="#">Input</a></li>
+                <li class="side-bar-item"><a href="#">Text Utilities</a></li>
+                <li class="side-bar-item"><a href="#">Lists</a></li>
+                <li class="side-bar-item"><a href="#">Navigation</a></li>
+                <li class="side-bar-item"><a href="#">Modal</a></li>
+                <li class="side-bar-item"><a href="#">Rating</a></li>
+            </ul>
+        </aside>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
