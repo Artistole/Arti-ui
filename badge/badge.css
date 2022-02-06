@@ -170,6 +170,7 @@ iframe {
   margin-bottom: 1rem;
 }
 
+/* badge styling */
 .badge {
   display: inline-block;
   height: 2rem;
@@ -180,6 +181,7 @@ iframe {
   right: 4rem;
 }
 
+/* badge different colors */
 .badge-online {
   background-color: var(--active-badge);
 }
@@ -201,11 +203,13 @@ iframe {
   right: 3rem;
 }
 
+/* badge on icon */
 .badge-icon {
   height: 4rem;
   width: 4rem;
 }
 
+/* styling for badge number */
 .badge-number {
   background-color: red;
   font-size: 1.5rem;
@@ -220,6 +224,7 @@ iframe {
   justify-content: center;
 }
 
+/* badge wrapper for badge and icon/avatar */
 .badge-wrapper {
   margin-left: 2rem;
 }
