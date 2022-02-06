@@ -138,6 +138,7 @@ iframe {
   width: 90%;
 }
 
+/* deafult button styling */
 .btn {
   padding: 1rem;
   margin: 1rem;
@@ -146,58 +147,70 @@ iframe {
   box-shadow: 0.4em 0.4em 2em 0.1em var(--header-boxshadow-light-color);
 }
 
+/* default button hover styling */
 .btn:hover {
   cursor: pointer;
 }
 
+/* primary btn styling */
 .btn-primary {
   background-color: var(--primary-color);
   color: white;
 }
 
+/* primary btn hover styling */
 .btn-primary:hover {
   background-color: var(--primary-color-hover);
   color: white;
 }
 
+/* secondary btn styling */
 .btn-secondary {
   background-color: var(--code-highlight);
 }
 
+/* secondary btn hover styling */
 .btn-secondary:hover {
   background-color: var(--secondary-color-hover);
 }
 
+/* disbaled btn styling */
 .btn-disabled {
   background-color: var(--disabled-background);
   color: var(--disabled-text);
 }
 
+/* disbaled btn hover styling */
 .btn-disabled:hover {
   cursor: default;
 }
 
+/* btn outline styling */
 .btn-outline {
   background-color: #fff;
   border: 2px solid var(--primary-color);
   letter-spacing: 0.1rem;
 }
 
+/* btn outline hover styling */
 .btn-outline:hover {
   background-color: var(--primary-color);
   color: #fff;
 }
 
+/* small btn outline styling */
 .btn-outline-small {
   background-color: #fff;
   border: 2px solid var(--code-highlight);
   padding: 0.5rem;
 }
 
+/* small btn outline hover styling */
 .btn-outline-small:hover {
   background-color: var(--code-highlight);
 }
 
+/* btn text styling */
 .btn-text {
   background-color: transparent;
   box-shadow: none;
@@ -206,10 +219,12 @@ iframe {
   font-size: 1.5rem;
 }
 
+/* btn text hover styling */
 .btn-text:hover {
   background-color: #ececf6;
 }
 
+/* icon btn primary styling */
 .btn-icon-primary {
   background-color: var(--primary-color);
   display: flex;
@@ -218,10 +233,12 @@ iframe {
   color: #fff;
 }
 
+/* icon btn primary hover styling */
 .btn-icon-primary:hover {
   background-color: var(--primary-color-hover);
 }
 
+/* icon btn secondary styling */
 .btn-icon-secondary {
   background-color: var(--code-highlight);
   display: flex;
@@ -229,33 +246,40 @@ iframe {
   font-size: 1.7rem;
 }
 
+/* icon btn secondary hover styling */
 .btn-icon-secondary:hover {
   background-color: var(--secondary-color-hover);
 }
 
+/* deafult icon btn styling */
 .icon {
   padding-right: 1rem;
 }
 
+/* icon wrapper */
 .btn-icon-wrapper {
   display: flex;
   flex-direction: row;
 }
 
+/* primary btn float styling */
 .btn-float-primary {
   background-color: var(--primary-color);
   border-radius: 9999rem;
 }
 
+/* primary btn float hover styling */
 .btn-float-primary:hover {
   background-color: var(--primary-color-hover);
 }
 
+/* secondary btn float styling */
 .btn-float-secondary {
   background-color: var(--code-highlight);
   border-radius: 9999rem;
 }
 
+/* secondary btn float hover styling */
 .btn-float-secondary:hover {
   background-color: var(--secondary-color-hover);
 }
