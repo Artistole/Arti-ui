@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Speed Cl | Image</title>
+		<link rel="stylesheet" href="image.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="icon" type="image/x-icon" href="speed_logo-cropped.png" />
+	</head>
+	<body>
+		<header>
+			<div id="logo-container">
+				<img id="logo" src="speed logo.svg" alt="logo" />
+				<div id="logo-name">Speed CL</div>
+			</div>
+			<div id="header-icon-container">
+				<img src="dark-mode.svg" alt="dark mode icon" id="dark-mode" />
+				<img src="github.svg" alt="github icon" id="github-icon" />
+			</div>
+		</header>
+		<div id="main-content">
+			<div id="component">
+				<div class="image-heading">Image</div>
+				<div class="seperator"></div>
+				<div class="image-description">
+					An image is a graphical representation of an object or a person.
+					Images can be made responsive (so that they don't jump out of its
+					parent container), have rounded corners or look like a circle.
+				</div>
+				<div class="seperator"></div>
+				<div class="image-heading">Responsive images</div>
+				<div class="image-description">
+					Images need to be responsive so that they can look convey the required
+					output even when resized to different screens
+				</div>
+				<img src="720p.jpg" alt="desert at night" class="img-res" />
+				<div class="image-snippet">Code snippet</div>
+				<div class="image-description">
+					Use
+					<span class="highlight">class</span>
+					<span class="highlight-code">img-res</span>
+					to make your image responsive
+				</div>
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%2833%2C176%2C242%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=12px&dsblur=68px&wc=true&wa=true&pv=32px&ph=29px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%2523%2522%2520alt%253D%2522%2523%2522%2520class%253D%2522img-res%2522%252F%253E"
+					style="
+						width: 60%;
+						height: 140px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+				<div class="seperator"></div>
+				<div class="image-heading">Round image</div>
+				<div class="image-description">
+					You can turn the images into a circle
+				</div>
+				<img
+					class="img-responsive round-image"
+					src="720p.jpg"
+					alt="desert at night circular"
+				/>
+				<div class="image-snippet">Code snippet</div>
+				<div class="image-description">
+					Use
+					<span class="highlight">class</span>
+					<span class="highlight-code">round-image</span>
+					to turn it into a circle
+				</div>
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%2833%2C176%2C242%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=12px&dsblur=68px&wc=true&wa=true&pv=32px&ph=29px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522%2523%2522%2520src%253D%2522%2523%2522%2520alt%253D%2522%2523%2522%252F%253E"
+					style="
+						width: 50%;
+						height: 140px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+			</div>
+			<aside id="side-bar">
+				<ul id="side-bar-links">
+					<li class="side-bar-item"><a href="#">Avatar</a></li>
+					<li class="side-bar-item"><a href="#">Alert</a></li>
+					<li class="side-bar-item"><a href="#">Badge</a></li>
+					<li class="side-bar-item"><a href="#">Button</a></li>
+					<li class="side-bar-item"><a href="#">Card</a></li>
+					<li class="side-bar-item"><a href="#">Image</a></li>
+					<li class="side-bar-item"><a href="#">Input</a></li>
+					<li class="side-bar-item"><a href="#">Text Utilities</a></li>
+					<li class="side-bar-item"><a href="#">Lists</a></li>
+					<li class="side-bar-item"><a href="#">Navigation</a></li>
+					<li class="side-bar-item"><a href="#">Modal</a></li>
+					<li class="side-bar-item"><a href="#">Rating</a></li>
+				</ul>
+			</aside>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
