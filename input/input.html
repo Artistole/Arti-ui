@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Speed CL | input</title>
+		<link rel="stylesheet" href="input.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="icon" type="image/x-icon" href="speed_logo-cropped.png" />
+	</head>
+	<bo>
+		<header>
+			<div id="logo-container">
+				<img id="logo" src="speed logo.svg" alt="logo" />
+				<div id="logo-name">Speed CL</div>
+			</div>
+			<div id="header-icon-container">
+				<img src="dark-mode.svg" alt="dark mode icon" id="dark-mode" />
+				<img src="github.svg" alt="github icon" id="github-icon" />
+			</div>
+		</header>
+		<div id="main-content">
+			<div id="component">
+				<div class="input-heading">Input</div>
+				<div class="input-description">
+					Inputs are used in forms to collect user related data.
+				</div>
+				<div class="seperator"></div>
+				<div class="input-heading">Input field</div>
+				<div class="input-description">This is a simple input field</div>
+				<input type="text" class="input" placeholder="Name" />
+				<div class="input-snippet">Code snippet:</div>
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%2833%2C176%2C242%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=12px&dsblur=68px&wc=true&wa=true&pv=32px&ph=29px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Name%2522%252F%253E"
+					style="
+						width: 100%;
+						height: 140px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+			<div class="seperator"></div>
+			<div class="input-heading">Input w/ validation</div>
+			<div class="input-description">
+				This is a input field with validation and errors style
+            </div>
+            <div>
+            <input type="email" class="input-validation" placeholder="email">
+            <div class="input-validation-text">Invalid email address!</div>     
+            </div>
+            <div class="input-snippet">Code snippet:</div>
+            <iframe src="https://carbon.now.sh/embed?bg=rgba%2833%2C176%2C242%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=12px&dsblur=68px&wc=true&wa=true&pv=32px&ph=29px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522input-validation%2522%2520placeholder%253D%2522email%2522%253E%250A%253Cdiv%2520class%253D%2522input-validation-text%2522%253EInvalid%2520email%2520address%21%253C%252Fdiv%253E%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+            style="width: 681px; height: 195px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+			
+        </div>
+			<aside id="side-bar">
+				<ul id="side-bar-links">
+					<li class="side-bar-item"><a href="#">Avatar</a></li>
+					<li class="side-bar-item"><a href="#">Alert</a></li>
+					<li class="side-bar-item"><a href="#">Badge</a></li>
+					<li class="side-bar-item"><a href="#">Button</a></li>
+					<li class="side-bar-item"><a href="#">Card</a></li>
+					<li class="side-bar-item"><a href="#">Image</a></li>
+					<li class="side-bar-item"><a href="#">Input</a></li>
+					<li class="side-bar-item"><a href="#">Text Utilities</a></li>
+					<li class="side-bar-item"><a href="#">Lists</a></li>
+					<li class="side-bar-item"><a href="#">Navigation</a></li>
+					<li class="side-bar-item"><a href="#">Modal</a></li>
+					<li class="side-bar-item"><a href="#">Rating</a></li>
+				</ul>
+			</aside>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>

@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+:root {
+	font-family: "Montserrat", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-size: 62.5%;
+	box-sizing: border-box;
+	--primary-color: #21b0f2;
+	--header-bg-light-color: #fff;
+	--header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
+	--seperator: #8a8a8f;
+	--code-highlight: #ffa07a;
+}
+
+#logo-container {
+	display: flex;
+}
+
+#logo {
+	width: 20rem;
+	height: 10rem;
+	margin-top: -1rem;
+}
+
+header {
+	display: flex;
+	position: fixed;
+	flex-direction: row;
+	justify-content: space-between;
+	box-shadow: 0.75em 0.75em 1em var(--header-boxshadow-light-color);
+	width: 100%;
+	background-color: var(--header-bg-light-color);
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#logo-name {
+	font-weight: 600;
+	font-size: 2.5rem;
+	margin-top: 2rem;
+	margin-left: -2rem;
+	letter-spacing: 0.1rem;
+}
+
+#github-icon {
+	margin: 3rem 3rem 0rem 2rem;
+}
+
+#dark-mode {
+	margin-top: 1.5rem;
+}
+
+#main-content {
+	margin-left: 10rem;
+}
+
+#side-bar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin-top: 8rem;
+}
+
+#side-bar-links {
+	font-size: 2.4rem;
+	list-style: none;
+	margin-top: 1rem;
+	margin-right: 4rem;
+}
+
+.side-bar-item {
+	padding: 1rem;
+}
+
+#component {
+	margin-right: 20rem;
+	margin-top: 12rem;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.seperator {
+	height: 0.0625rem;
+	width: 90%;
+	background-color: var(--seperator);
+	margin-bottom: 3rem;
+}
+
+.highlight {
+	color: var(--primary-color);
+	font-weight: 700;
+}
+
+/* highlighting code */
+.highlight-code {
+	color: var(--code-highlight);
+	font-weight: 700;
+}
+
+/* iframe */
+iframe {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+/* component css */
+
+/* repalce name */
+.input-snippet {
+	font-size: 2rem;
+	font-weight: 500;
+	margin-top: 1rem;
+}
+
+/* input heading */
+.input-heading {
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+/* input description */
+.input-description {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	font-size: 1.5rem;
+	width: 90%;
+}
+
+.input {
+	border: 0.2rem solid rgba(0, 0, 0, 0.3);
+	width: 20rem;
+	height: 3rem;
+}
+
+.input:focus {
+	border: 0.2rem solid black;
+}
+
+.input-validation {
+	border: 0.2rem solid rgba(255, 0, 0, 0.5);
+	width: 20rem;
+	height: 3rem;
+}
+
+.input-validation-text {
+	color: red;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
