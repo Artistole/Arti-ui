@@ -351,10 +351,7 @@ iframe {
 	background-color: antiquewhite;
 	height: 41rem;
 	width: 35rem;
-	margin: auto;
 	height: auto;
-	position: relative;
-	left: -26rem;
 }
 
 #btns-hr {
