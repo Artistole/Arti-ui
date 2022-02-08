@@ -1,285 +1,286 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 :root {
-  font-family: "Montserrat", sans-serif;
-  padding: 0px;
-  margin: 0px;
-  font-size: 62.5%;
-  box-sizing: border-box;
-  --primary-color: #21b0f2;
-  --header-bg-light-color: #fff;
-  --header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
-  --seperator: #8a8a8f;
-  --code-highlight: #ffa07a;
-  --disabled-background: rgba(0, 0, 0, 0.1);
-  --disabled-text: rgba(0, 0, 0, 0.4);
-  --primary-color-hover: #226f92;
-  --secondary-color-hover: #ec6a37;
+	font-family: "Montserrat", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-size: 62.5%;
+	box-sizing: border-box;
+	--primary-color: #21b0f2;
+	--header-bg-light-color: #fff;
+	--header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
+	--seperator: #8a8a8f;
+	--code-highlight: #ffa07a;
+	--disabled-background: rgba(0, 0, 0, 0.1);
+	--disabled-text: rgba(0, 0, 0, 0.4);
+	--primary-color-hover: #226f92;
+	--secondary-color-hover: #ec6a37;
+	--btn-boxshadow-light: rgba(0, 0, 0, 0.3) 0rem 0.4rem 1.2rem;
 }
 
 #logo-container {
-  display: flex;
+	display: flex;
 }
 
 #logo {
-  width: 20rem;
-  height: 10rem;
-  margin-top: -1rem;
+	width: 20rem;
+	height: 10rem;
+	margin-top: -1rem;
 }
 
 header {
-  display: flex;
-  position: fixed;
-  flex-direction: row;
-  justify-content: space-between;
-  box-shadow: 0.75em 0.75em 1em var(--header-boxshadow-light-color);
-  width: 100%;
-  background-color: var(--header-bg-light-color);
-  top: 0;
-  left: 0;
-  z-index: 1;
+	display: flex;
+	position: fixed;
+	flex-direction: row;
+	justify-content: space-between;
+	box-shadow: 0.75em 0.75em 1em var(--header-boxshadow-light-color);
+	width: 100%;
+	background-color: var(--header-bg-light-color);
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
 #logo-name {
-  font-weight: 600;
-  font-size: 2.5rem;
-  margin-top: 2rem;
-  margin-left: -2rem;
-  letter-spacing: 0.1rem;
+	font-weight: 600;
+	font-size: 2.5rem;
+	margin-top: 2rem;
+	margin-left: -2rem;
+	letter-spacing: 0.1rem;
 }
 
 #github-icon {
-  margin: 3rem 3rem 0rem 2rem;
+	margin: 3rem 3rem 0rem 2rem;
 }
 
 #dark-mode {
-  margin-top: 1.5rem;
+	margin-top: 1.5rem;
 }
 
 #main-content {
-  margin-left: 10rem;
+	margin-left: 10rem;
 }
 
 #side-bar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  margin-top: 8rem;
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin-top: 8rem;
 }
 
 #side-bar-links {
-  font-size: 2.4rem;
-  list-style: none;
-  margin-top: 1rem;
-  margin-right: 4rem;
+	font-size: 2.4rem;
+	list-style: none;
+	margin-top: 1rem;
+	margin-right: 4rem;
 }
 
 .side-bar-item {
-  padding: 1rem;
+	padding: 1rem;
 }
 
 #component {
-  margin-right: 20rem;
-  margin-top: 12rem;
+	margin-right: 20rem;
+	margin-top: 12rem;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 
 a:visited {
-  color: black;
+	color: black;
 }
 
 .seperator {
-  height: 0.0625rem;
-  width: 90%;
-  background-color: var(--seperator);
-  margin-bottom: 3rem;
+	height: 0.0625rem;
+	width: 90%;
+	background-color: var(--seperator);
+	margin-bottom: 3rem;
 }
 
 .highlight {
-  color: var(--primary-color);
-  font-weight: 700;
+	color: var(--primary-color);
+	font-weight: 700;
 }
 
 /* highlighting code */
 .highlight-code {
-  color: var(--code-highlight);
-  font-weight: 700;
+	color: var(--code-highlight);
+	font-weight: 700;
 }
 
 /* iframe */
 iframe {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 }
 
 /* component css */
 
 /* repalce name */
 .button-snippet {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-top: 1rem;
+	font-size: 2rem;
+	font-weight: 500;
+	margin-top: 1rem;
 }
 
 /* button heading */
 .button-heading {
-  font-size: 3rem;
-  font-weight: 500;
+	font-size: 3rem;
+	font-weight: 500;
 }
 
 /* button description */
 .button-description {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  font-size: 1.5rem;
-  width: 90%;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	font-size: 1.5rem;
+	width: 90%;
 }
 
 /* deafult button styling */
 .btn {
-  padding: 1rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  border: none;
-  box-shadow: 0.4em 0.4em 2em 0.1em var(--header-boxshadow-light-color);
+	padding: 1rem;
+	margin: 1rem;
+	font-size: 1.5rem;
+	border: none;
+	box-shadow: var(--btn-boxshadow-light);
 }
 
 /* default button hover styling */
 .btn:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 /* primary btn styling */
 .btn-primary {
-  background-color: var(--primary-color);
-  color: white;
+	background-color: var(--primary-color);
+	color: white;
 }
 
 /* primary btn hover styling */
 .btn-primary:hover {
-  background-color: var(--primary-color-hover);
-  color: white;
+	background-color: var(--primary-color-hover);
+	color: white;
 }
 
 /* secondary btn styling */
 .btn-secondary {
-  background-color: var(--code-highlight);
+	background-color: var(--code-highlight);
 }
 
 /* secondary btn hover styling */
 .btn-secondary:hover {
-  background-color: var(--secondary-color-hover);
+	background-color: var(--secondary-color-hover);
 }
 
 /* disbaled btn styling */
 .btn-disabled {
-  background-color: var(--disabled-background);
-  color: var(--disabled-text);
+	background-color: var(--disabled-background);
+	color: var(--disabled-text);
 }
 
 /* disbaled btn hover styling */
 .btn-disabled:hover {
-  cursor: default;
+	cursor: default;
 }
 
 /* btn outline styling */
 .btn-outline {
-  background-color: #fff;
-  border: 2px solid var(--primary-color);
-  letter-spacing: 0.1rem;
+	background-color: #fff;
+	border: 2px solid var(--primary-color);
+	letter-spacing: 0.1rem;
 }
 
 /* btn outline hover styling */
 .btn-outline:hover {
-  background-color: var(--primary-color);
-  color: #fff;
+	background-color: var(--primary-color);
+	color: #fff;
 }
 
 /* small btn outline styling */
 .btn-outline-small {
-  background-color: #fff;
-  border: 2px solid var(--code-highlight);
-  padding: 0.5rem;
+	background-color: #fff;
+	border: 2px solid var(--code-highlight);
+	padding: 0.5rem;
 }
 
 /* small btn outline hover styling */
 .btn-outline-small:hover {
-  background-color: var(--code-highlight);
+	background-color: var(--code-highlight);
 }
 
 /* btn text styling */
 .btn-text {
-  background-color: transparent;
-  box-shadow: none;
-  text-decoration: underline;
-  letter-spacing: 0.2rem;
-  font-size: 1.5rem;
+	background-color: transparent;
+	box-shadow: none;
+	text-decoration: underline;
+	letter-spacing: 0.2rem;
+	font-size: 1.5rem;
 }
 
 /* btn text hover styling */
 .btn-text:hover {
-  background-color: #ececf6;
+	background-color: #ececf6;
 }
 
 /* icon btn primary styling */
 .btn-icon-primary {
-  background-color: var(--primary-color);
-  display: flex;
-  justify-content: baseline;
-  font-size: 1.7rem;
-  color: #fff;
+	background-color: var(--primary-color);
+	display: flex;
+	justify-content: baseline;
+	font-size: 1.7rem;
+	color: #fff;
 }
 
 /* icon btn primary hover styling */
 .btn-icon-primary:hover {
-  background-color: var(--primary-color-hover);
+	background-color: var(--primary-color-hover);
 }
 
 /* icon btn secondary styling */
 .btn-icon-secondary {
-  background-color: var(--code-highlight);
-  display: flex;
-  justify-content: baseline;
-  font-size: 1.7rem;
+	background-color: var(--code-highlight);
+	display: flex;
+	justify-content: baseline;
+	font-size: 1.7rem;
 }
 
 /* icon btn secondary hover styling */
 .btn-icon-secondary:hover {
-  background-color: var(--secondary-color-hover);
+	background-color: var(--secondary-color-hover);
 }
 
 /* deafult icon btn styling */
 .icon {
-  padding-right: 1rem;
+	padding-right: 1rem;
 }
 
 /* icon wrapper */
 .btn-icon-wrapper {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 /* primary btn float styling */
 .btn-float-primary {
-  background-color: var(--primary-color);
-  border-radius: 9999rem;
+	background-color: var(--primary-color);
+	border-radius: 9999rem;
 }
 
 /* primary btn float hover styling */
 .btn-float-primary:hover {
-  background-color: var(--primary-color-hover);
+	background-color: var(--primary-color-hover);
 }
 
 /* secondary btn float styling */
 .btn-float-secondary {
-  background-color: var(--code-highlight);
-  border-radius: 9999rem;
+	background-color: var(--code-highlight);
+	border-radius: 9999rem;
 }
 
 /* secondary btn float hover styling */
 .btn-float-secondary:hover {
-  background-color: var(--secondary-color-hover);
+	background-color: var(--secondary-color-hover);
 }
