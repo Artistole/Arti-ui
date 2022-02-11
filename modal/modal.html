@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Speed CL | Modal</title>
+		<link rel="stylesheet" href="modal.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="icon" type="image/x-icon" href="speed_logo-cropped.png" />
+	</head>
+	<body>
+		<div id="overlay">
+			<header>
+				<div id="logo-container">
+					<img id="logo" src="speed logo.svg" alt="logo" />
+					<div id="logo-name">Speed CL</div>
+				</div>
+				<div id="header-icon-container">
+					<img src="dark-mode.svg" alt="dark mode icon" id="dark-mode" />
+					<img src="github.svg" alt="github icon" id="github-icon" />
+				</div>
+			</header>
+			<div id="main-content">
+				<div id="component">
+					<div class="modal-heading">Modal</div>
+					<div class="seperator"></div>
+					<div class="modal-description">
+						Modals are positioned over everything else in the document and they
+						cna be used like a pop out component which can grab user's
+						attention.
+					</div>
+					<div class="seperator"></div>
+					<div class="modal-heading">Simple modal</div>
+					<div class="modal-description">
+						you can click on the close button or anywhere else outside the modal
+						to close it.
+					</div>
+					<button class="modal-initialise">Modal</button>
+
+					<div class="modal">
+						<div class="modal-header">
+							Example modal
+							<button class="modal-close">
+								<img src="close-white24.svg" />
+							</button>
+						</div>
+						<div class="modal-content">
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
+							vero blanditiis delectus repellendus ducimus, adipisci totam
+							temporibus nihil commodi quod expedita, sit, fugiat quibusdam
+							voluptas.
+						</div>
+						<div class="action-btn">
+							<button class="action">Action 1</button>
+							<button class="action">Action 2</button>
+						</div>
+					</div>
+
+					<div class="modal-snippet">Code snippet:</div>
+					<div class="modal-description">
+						Make sure to give a div element with
+						<span class="highlight">id</span>
+						<span class="highlight-code">overlay</span> which wraps entire page
+						to get the background effect.
+					</div>
+					<iframe
+						src="https://www.thiscodeworks.com/embed/6205ed7ea4f5770015a88503"
+						style="width: 70%; height: 645px"
+						frameborder="0"
+					></iframe>
+				</div>
+				<aside id="side-bar">
+					<ul id="side-bar-links">
+						<li class="side-bar-item"><a href="#">Avatar</a></li>
+						<li class="side-bar-item"><a href="#">Alert</a></li>
+						<li class="side-bar-item"><a href="#">Badge</a></li>
+						<li class="side-bar-item"><a href="#">Button</a></li>
+						<li class="side-bar-item"><a href="#">Card</a></li>
+						<li class="side-bar-item"><a href="#">Image</a></li>
+						<li class="side-bar-item"><a href="#">Input</a></li>
+						<li class="side-bar-item"><a href="#">Text Utilities</a></li>
+						<li class="side-bar-item"><a href="#">Lists</a></li>
+						<li class="side-bar-item"><a href="#">Navigation</a></li>
+						<li class="side-bar-item"><a href="#">Modal</a></li>
+						<li class="side-bar-item"><a href="#">Rating</a></li>
+					</ul>
+				</aside>
+			</div>
+		</div>
+	</body>
+	<script src="app.js"></script>
+</html>
