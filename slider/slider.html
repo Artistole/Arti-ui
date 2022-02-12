@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Speed CL | Slider</title>
+		<link rel="stylesheet" href="slider.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="icon" type="image/x-icon" href="speed_logo-cropped.png" />
+	</head>
+	<body>
+		<header>
+			<div id="logo-container">
+				<img id="logo" src="speed logo.svg" alt="logo" />
+				<div id="logo-name">Speed CL</div>
+			</div>
+			<div id="header-icon-container">
+				<img src="dark-mode.svg" alt="dark mode icon" id="dark-mode" />
+				<img src="github.svg" alt="github icon" id="github-icon" />
+			</div>
+		</header>
+		<div id="main-content">
+			<div id="component">
+				<div class="slider-heading">Slider</div>
+				<div class="seperator"></div>
+				<div class="slider-description">
+					Sliders are used to decide range for something like sound in videos,
+					price in shopping sites, etc.
+				</div>
+				<div class="seperator"></div>
+				<div class="slider-heading">A simple slider</div>
+				<div class="slider-description">
+					This is a simple slider which has a default value of 50 and can be
+					adjusted from 0 to 100
+				</div>
+				<input type="range" min="0" max="100" value="50" />
+				<div class="slider-snippet">Code snippet:</div>
+				<iframe
+					src="https://www.thiscodeworks.com/embed/620742953d90130015398bd6"
+					style="width: 70%; height: 99px"
+					frameborder="0"
+				></iframe>
+				<div class="seperator"></div>
+				<div class="slider-heading">Styled slider</div>
+				<div class="slider-description">
+					This is a styled slider which has a default value of 50 and can be
+					adjusted from 0 to 100
+				</div>
+				<input
+					type="range"
+					vlaue="50"
+					min="0"
+					max="100"
+					value="50"
+					class="slider"
+				/>
+				<div class="slider-snippet">Code snippet:</div>
+				<iframe
+					src="https://www.thiscodeworks.com/embed/620748ae3d90130015398bd9"
+					style="width: 70%; height: 99px"
+					frameborder="0"
+				></iframe>
+				<div class="seperator"></div>
+				<div class="slider-heading">Vertical slider</div>
+				<div class="slider-description">
+					This is a vertical slider which has a default value of 50 and can be
+					adjusted from 0 to 100 and the icon and opacity change when muted.
+				</div>
+				<input
+					type="range"
+					min="0"
+					max="100"
+					value="50"
+					class="vertical-sldier"
+					id="range"
+				/>
+				<img src="volume_up_black_24dp.svg" id="volume-icon" />
+				<div id="range-value"></div>
+				<div class="slider-snippet">Code snippet:</div>
+				<div class="slider-description">
+					Make sure to change the icons as per you need before using this code.
+				</div>
+				<iframe
+					src="https://www.thiscodeworks.com/embed/62074f3f3d90130015398be0"
+					style="width: 70%; height: 346px"
+					frameborder="0"
+				></iframe>
+			</div>
+			<aside id="side-bar">
+				<ul id="side-bar-links">
+					<li class="side-bar-item"><a href="#">Avatar</a></li>
+					<li class="side-bar-item"><a href="#">Alert</a></li>
+					<li class="side-bar-item"><a href="#">Badge</a></li>
+					<li class="side-bar-item"><a href="#">Button</a></li>
+					<li class="side-bar-item"><a href="#">Card</a></li>
+					<li class="side-bar-item"><a href="#">Image</a></li>
+					<li class="side-bar-item"><a href="#">Input</a></li>
+					<li class="side-bar-item"><a href="#">Text Utilities</a></li>
+					<li class="side-bar-item"><a href="#">Lists</a></li>
+					<li class="side-bar-item"><a href="#">Navigation</a></li>
+					<li class="side-bar-item"><a href="#">Modal</a></li>
+					<li class="side-bar-item"><a href="#">Rating</a></li>
+				</ul>
+			</aside>
+		</div>
+		<script src="slider.js"></script>
+	</body>
+</html>
