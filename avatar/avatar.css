@@ -111,12 +111,14 @@ a:visited {
 	width: 3rem;
 	margin: 0.6rem;
 	background: var(--primary-color);
+	cursor: pointer;
 }
 
 .hamburger-container {
 	margin-right: 1rem;
 	padding-top: 1.3rem;
 	height: 3.5rem;
+	cursor: pointer;
 }
 
 /* component css */
