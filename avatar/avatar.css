@@ -1,176 +1,243 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 :root {
-  font-family: "Montserrat", sans-serif;
-  padding: 0px;
-  margin: 0px;
-  font-size: 62.5%;
-  box-sizing: border-box;
-  --primary-color: #21b0f2;
-  --header-bg-light-color: #fff;
-  --header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
-  --seperator: #8a8a8f;
-  --code-highlight: #FFA07A;
+	font-family: "Montserrat", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-size: 62.5%;
+	box-sizing: border-box;
+	--primary-color: #21b0f2;
+	--header-bg-light-color: #fff;
+	--header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
+	--seperator: #8a8a8f;
+	--code-highlight: #ffa07a;
 }
 
 #logo-container {
-  display: flex;
+	display: flex;
 }
 
 #logo {
-  width: 20rem;
-  height: 10rem;
-  margin-top: -1rem;
+	width: 20rem;
+	height: 10rem;
+	margin-top: -1rem;
 }
 
 header {
-  display: flex;
-  position: fixed;
-  flex-direction: row;
-  justify-content: space-between;
-  box-shadow: 0.75em 0.75em 1em var(--header-boxshadow-light-color);
-  width: 100%;
-  background-color: var(--header-bg-light-color);
-  top: 0;
-  left: 0;
-  z-index: 1;
+	display: flex;
+	position: fixed;
+	flex-direction: row;
+	justify-content: space-between;
+	box-shadow: 0.75em 0.75em 1em var(--header-boxshadow-light-color);
+	width: 100%;
+	background-color: var(--header-bg-light-color);
+	top: 0;
+	left: 0;
+	z-index: 3;
 }
 
 #logo-name {
-  font-weight: 600;
-  font-size: 2.5rem;
-  padding-top: 2rem;
-  margin-left: -2rem;
-  letter-spacing: 0.1rem;
+	font-weight: 600;
+	font-size: 2.5rem;
+	padding-top: 2rem;
+	margin-left: -2rem;
+	letter-spacing: 0.1rem;
 }
 
 #github-icon {
-  margin: 3rem 3rem 0rem 2rem;
+	margin: 2rem 3rem 0rem 2rem;
 }
 
 #dark-mode {
-  margin-top: 1.5rem;
+	margin-top: 2rem;
 }
 
 #main-content {
-  margin-left: 10rem;
+	margin-left: 10rem;
 }
 
-#side-bar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  margin-top: 9.5rem;
+.side-bar {
+	position: fixed;
+	display: none;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin-top: 9rem;
+	background-color: #fff;
+	z-index: 2;
+	overflow-y: visible;
+}
+
+.hide {
+	display: block;
 }
 
 #side-bar-links {
-  font-size: 2.4rem;
-  list-style: none;
-  margin-top: 1rem;
-  padding-right: 4rem;
+	font-size: 2.4rem;
+	list-style: none;
+	margin-top: 1rem;
+	padding-right: 4rem;
 }
 
 .side-bar-item {
-  padding: 1rem;
+	padding: 1rem;
 }
 
 #component {
-  margin-right: 20rem;
-  margin-top: 12rem;
+	margin-right: 20rem;
+	margin-top: 12rem;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 
 a:visited {
-  color: black;
+	color: black;
+}
+
+#header-icon-container {
+	display: flex;
+}
+
+.hamburger {
+	height: 0.5rem;
+	width: 3rem;
+	margin: 0.6rem;
+	background: var(--primary-color);
+}
+
+.hamburger-container {
+	margin-right: 1rem;
+	padding-top: 1.3rem;
+	height: 3.5rem;
 }
 
 /* component css */
 
 /* avatar design */
 .avatar {
-  border-radius: 5rem;
-  margin: 1rem;
+	border-radius: 5rem;
+	margin: 1rem;
 }
 
 /* avatar parameters */
 .avatar-lg {
-  height: 10rem;
-  width: 10rem;
+	height: 10rem;
+	width: 10rem;
 }
 
 .avatar-md {
-  height: 8rem;
-  width: 8rem;
+	height: 8rem;
+	width: 8rem;
 }
 
 .avatar-sm {
-  height: 5rem;
-  width: 5rem;
+	height: 5rem;
+	width: 5rem;
 }
 
 /* text avatar design */
 .avatar-txt {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--primary-color);
-  font-size: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-color);
+	font-size: 4rem;
 }
 
 /* text avatar container */
 #avatar-container {
-  display: flex;
-  align-items: baseline;
+	display: flex;
+	align-items: baseline;
 }
 
 /* avatar heading */
 .avatar-heading {
-  font-size: 3rem;
-  font-weight: 500;
+	font-size: 3rem;
+	font-weight: 500;
 }
 
 /* avatar snippet */
 .avatar-snippet {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-top: 1rem;  
+	font-size: 2rem;
+	font-weight: 500;
+	margin-top: 1rem;
 }
 
 /* seperating line */
 #seperator {
-  height: 0.0625rem;
-  width: 90%;
-  background-color: var(--seperator);
-  margin-bottom: 3rem;
+	height: 0.0625rem;
+	width: 100%;
+	background-color: var(--seperator);
+	margin-bottom: 3rem;
 }
 
 /* avatar description */
 .avatar-description,
 .avatar-inner-description {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  font-size: 1.5rem;
-  width: 90%;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	font-size: 1.5rem;
+	width: 90%;
 }
 
 /* highlighting text */
 .highlight {
-  color: var(--primary-color);
-  font-weight: 700;
+	color: var(--primary-color);
+	font-weight: 700;
 }
 
 /* highlighting code */
-.highlight-code{
-  color: var(--code-highlight);
-  font-weight: 700;
+.highlight-code {
+	color: var(--code-highlight);
+	font-weight: 700;
 }
 
 /* iframe */
-iframe{
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+iframe {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 }
 
+@media all and (max-width: 645px) {
+	#main-content {
+		margin-left: 0rem;
+	}
+
+	#component {
+		margin-right: 0rem;
+		margin-top: 12rem;
+	}
+
+	#side-bar-links {
+		padding-left: 2rem;
+	}
+
+	#logo-name {
+		font-size: 1.5rem;
+		margin-top: 1rem;
+		margin-left: -5rem;
+	}
+
+	#logo {
+		margin-left: -4rem;
+	}
+
+	#dark-mode {
+		margin-top: 2.5rem;
+		margin-right: -1rem;
+	}
+
+	#github-icon {
+		margin: 2.5rem 1rem 0rem 2rem;
+	}
+
+	.hamburger-container {
+		padding-top: 1.8rem;
+	}
+
+	.side-bar {
+		overflow-y: scroll;
+	}
+}
