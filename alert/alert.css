@@ -140,6 +140,7 @@ iframe {
 	width: 3rem;
 	margin: 0.6rem;
 	background: var(--primary-color);
+	cursor: pointer;
 }
 
 .hamburger-container {
