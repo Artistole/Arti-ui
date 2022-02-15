@@ -71,6 +71,12 @@ header {
 	display: block;
 }
 
+.side-bar-note {
+	display: none;
+	font-size: 1.5rem;
+	color: rgba(0, 0, 0, 0.5);
+}
+
 #side-bar-links {
 	font-size: 2.4rem;
 	list-style: none;
@@ -239,5 +245,55 @@ iframe {
 
 	.side-bar {
 		overflow-y: scroll;
+	}
+
+	.side-bar-note {
+		display: block;
+	}
+}
+
+@media all and (max-width: 340px) {
+	#main-content {
+		margin-left: 0rem;
+	}
+
+	#component {
+		margin-right: 0rem;
+		margin-top: 12rem;
+	}
+
+	#side-bar-links {
+		padding-left: 2rem;
+	}
+
+	#logo-name {
+		font-size: 1.5rem;
+		margin-top: 1rem;
+		margin-left: -5rem;
+	}
+
+	#logo {
+		margin-left: -8rem;
+	}
+
+	#dark-mode {
+		margin-top: 2.5rem;
+		margin-right: -1rem;
+	}
+
+	#github-icon {
+		margin: 2.5rem 1rem 0rem 2rem;
+	}
+
+	.hamburger-container {
+		padding-top: 1.8rem;
+	}
+
+	.side-bar {
+		overflow-y: scroll;
+	}
+
+	.side-bar-note {
+		display: block;
 	}
 }
