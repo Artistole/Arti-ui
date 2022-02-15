@@ -69,7 +69,7 @@ header {
 	margin-top: 9rem;
 	background-color: #fff;
 	z-index: 2;
-	overflow-y: visible;
+	overflow-y: scroll;
 }
 
 .hide {
