@@ -47,10 +47,11 @@ header {
 }
 
 #github-icon {
-	margin: 2rem 3rem 0rem 2rem;
+	margin: 2rem 1rem 0rem 0rem;
 }
 
 #dark-mode {
+	margin-right: 2rem;
 	margin-top: 2rem;
 	height: 2.4rem;
 }
@@ -258,11 +259,12 @@ iframe {
 
 	#dark-mode {
 		margin-top: 2.5rem;
-		margin-right: -1rem;
+		padding-right: 1rem;
+		margin-right: 1rem;
 	}
 
 	#github-icon {
-		margin: 2.5rem 1rem 0rem 2rem;
+		margin: 2.5rem 1rem 0rem 0rem;
 	}
 
 	.hamburger-container {
