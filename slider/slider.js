@@ -13,3 +13,11 @@ slider.oninput = function () {
 		document.querySelector("#range").style.opacity = "1";
 	}
 };
+
+const hamburger = document.querySelector(".hamburger-container");
+
+hamburger.addEventListener("click", toggle);
+
+function toggle() {
+	document.querySelector(".side-bar").classList.toggle("hide");
+}
