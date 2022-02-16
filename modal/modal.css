@@ -251,7 +251,7 @@ iframe {
 	}
 
 	#main-content {
-		margin-left: 0rem;
+		margin-left: 1rem;
 	}
 
 	#component {
@@ -275,8 +275,7 @@ iframe {
 
 	#dark-mode {
 		margin-top: 2.5rem;
-		padding-right: 1rem;
-		margin-right: 1rem;
+		margin-right: 0rem;
 	}
 
 	#github-icon {
@@ -298,7 +297,7 @@ iframe {
 
 @media all and (max-width: 340px) {
 	#main-content {
-		margin-left: 0rem;
+		margin-left: 1rem;
 	}
 
 	#component {
