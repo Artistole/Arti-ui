@@ -229,6 +229,8 @@ iframe {
 	}
 }
 
+/* media query */
+
 @media all and (max-width: 340px) {
 	#main-content {
 		margin-left: 0rem;
