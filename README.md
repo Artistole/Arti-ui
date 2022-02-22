@@ -133,7 +133,8 @@ There are different types of List present in the library.
 
 - Spaced List
 - Stacked List
-
+  
+  
 ## [Modal](https://speed-cl.netlify.app/components/modal/modal.html)
 
 Modal is used to ask an action among choices from a user.
@@ -193,10 +194,11 @@ There is a single toast present in the library.
 
 ## Desktop Version
 
-![Speed CL gif](#)
 
-## Mobile Version
-
-<#>
 
 ---
+
+
+https://user-images.githubusercontent.com/67518197/155103426-ff3828e7-f666-4fc4-8c03-951f805714ac.mp4
+
+
