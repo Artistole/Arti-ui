@@ -183,6 +183,7 @@ a:visited {
 #badge-container {
 	display: flex;
 	align-items: flex-end;
+	flex-wrap: wrap;
 }
 
 /* highlighting text */
