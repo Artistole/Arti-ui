@@ -15,10 +15,7 @@ Site-status:
 In order to use the components of Speed CL in your project, just copy paste the stylesheet `<link>` in the `<head>` tag of your html document, above all other stylesheets.
 
 ```html
-<link
-  rel="stylesheet"
-  href="https://speed-cl.netlify.app/main.css"
-/>
+<link rel="stylesheet" href="https://speed-cl.netlify.app/main.css" />
 ```
 
 ## Speed CL contains the following components
@@ -41,7 +38,7 @@ In order to use the components of Speed CL in your project, just copy paste the 
 
 ---
 
-## [Avatar](https://speed-cl.netlify.app/avatar/avatar.html)
+## [Avatar](https://speed-cl.netlify.app/components/avatar/avatar.html)
 
 Avatar is used to display the image of a user.
 
@@ -52,8 +49,7 @@ There are different types of Avatars present in the library.
 - Small Avatar
 - Avatar with text
 
-
-## [Alert](https://speed-cl.netlify.app/alert/alert.html)
+## [Alert](https://speed-cl.netlify.app/components/alert/alert.html)
 
 Alert is used to display important message to the user.
 
@@ -65,7 +61,7 @@ There are different types of Alerts present in the library.
 - Warning Alert
 - Alert with close button
 
-## [Badge](https://speed-cl.netlify.app/badge/badge.html)
+## [Badge](https://speed-cl.netlify.app/components/badge/badge.html)
 
 Badge is used to display the status(online/offline/away/busy) of the user or for notification count.
 
@@ -74,7 +70,7 @@ There are different types of Badges present in the library.
 - Badges on Avatars
 - Badges on Icons
 
-## [Button](https://speed-cl.netlify.app/button/button.html)
+## [Button](https://speed-cl.netlify.app/components/button/button.html)
 
 Buttons are used to make a web app interactive and to make user take an action.
 
@@ -86,7 +82,7 @@ There are different types of Buttons present in the library.
 - Icon Button
 - Floating Button
 
-## [Card](https://speed-cl.netlify.app/card/card.html)
+## [Card](https://speed-cl.netlify.app/components/card/card.html)
 
 Card is essentially used in ecommerce or video library or social media regarding one piece of information.
 
@@ -102,7 +98,7 @@ There are different types of Crads present in the library.
 - Ecommerce cart Card
 - Ecommerce bill Card
 
-## [Grid](https://speed-cl.netlify.app/grid/grid.html)
+## [Grid](https://speed-cl.netlify.app/components/grid/grid.html)
 
 Grid is used to divide a web page into sections.
 
@@ -111,7 +107,7 @@ There are two items and three items grid present in the library.
 - Two Items(2x2) Grid
 - Three Items (3x3) Grid
 
-## [Image](https://speed-cl.netlify.app/image/image.html)
+## [Image](https://speed-cl.netlify.app/components/image/image.html)
 
 Image is used to display large image on the website.
 
@@ -120,7 +116,7 @@ There are different types of Images present in the library.
 - Responsive Image
 - Circle Image
 
-## [Input](https://speed-cl.netlify.app/input/input.html)
+## [Input](https://speed-cl.netlify.app/components/input/input.html)
 
 Input is used to ask a piece a piece of information from the user.
 
@@ -129,7 +125,7 @@ There are different types of Inputs present in the library.
 - Basic Input
 - Error Input
 
-## [List](https://speed-cl.netlify.app/lists/list.html)
+## [List](https://speed-cl.netlify.app/components/lists/list.html)
 
 List is used to display choices inside a heading to the user.
 
@@ -138,7 +134,7 @@ There are different types of List present in the library.
 - Spaced List
 - Stacked List
 
-## [Modal](https://speed-cl.netlify.app/modal/modal.html)
+## [Modal](https://speed-cl.netlify.app/components/modal/modal.html)
 
 Modal is used to ask an action among choices from a user.
 
@@ -146,7 +142,7 @@ There is a single modal present in the library.
 
 - Simple Modal
 
-## [Navigation](https://speed-cl.netlify.app/navigation/navigation.html)
+## [Navigation](https://speed-cl.netlify.app/components/navigation/navigation.html)
 
 Navigation is used to navigate to different sections or pages of a website.
 
@@ -156,7 +152,7 @@ There are different types of Navigation present in the library.
 - Navigation with submenu
 - Navigation with a hamburger
 
-## [Rating](https://speed-cl.netlify.app/rating/rating.html)
+## [Rating](https://speed-cl.netlify.app/components/rating/rating.html)
 
 Rating is used to ask a rating or a service or product from a user.
 
@@ -164,7 +160,7 @@ There is a single rating present in the library.
 
 - Simple Rating
 
-## [Slider](https://speed-cl.netlify.app/slider/slider.html)
+## [Slider](https://speed-cl.netlify.app/components/slider/slider.html)
 
 Slider is used to display items present in its range to the user.
 
@@ -174,7 +170,7 @@ There is a single slider present in the library.
 - Styled Slider
 - Vertical Slider
 
-## [Utilities](https://speed-cl.netlify.app/text-util/text-util.html)
+## [Utilities](https://speed-cl.netlify.app/components/text-util/text-util.html)
 
 Text-utilities is used to format text in a website.
 
@@ -185,7 +181,7 @@ There are different types of Typography examples present in the library.
 - Alignment
 - Additional styles
 
-## [Toast](https://speed-cl.netlify.app/toast/toast.html)
+## [Toast](https://speed-cl.netlify.app/components/toast/toast.html)
 
 Toast is used to display a notification to the user because of the action he took.
 
