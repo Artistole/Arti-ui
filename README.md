@@ -17,6 +17,7 @@ In order to use the components of Speed CL in your project, just copy paste the 
 ```html
 <link rel="stylesheet" href="https://speed-cl.netlify.app/main.css" />
 ```
+- [video](#video) of the website
 
 ## Speed CL contains the following components
 
@@ -192,12 +193,7 @@ There is a single toast present in the library.
 
 ---
 
-## Desktop Version
-
-
-
----
-
+## [Video]
 
 https://user-images.githubusercontent.com/67518197/155103426-ff3828e7-f666-4fc4-8c03-951f805714ac.mp4
 
