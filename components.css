@@ -395,29 +395,6 @@
 	width: 35rem;
 }
 
-/* buttons container in card */
-#btns {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-}
-
-/* buttons styling */
-.btn {
-	background-color: Transparent;
-	border: none;
-	cursor: pointer;
-	padding: 0.1rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	font-size: medium;
-	letter-spacing: 0.1rem;
-}
-
-.btn:hover {
-	background-color: var(--primary-color-hover);
-}
-
 /* icon buttons styling */
 #icons-btn {
 	height: 3.5rem;
