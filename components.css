@@ -1,3 +1,21 @@
+:root {
+	font-family: "Montserrat", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-size: 62.5%;
+	box-sizing: border-box;
+	--primary-color: #21b0f2;
+	--header-bg-light-color: #fff;
+	--header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
+	--seperator: #8a8a8f;
+	--code-highlight: #ffa07a;
+	--disabled-background: rgba(0, 0, 0, 0.1);
+	--disabled-text: rgba(0, 0, 0, 0.4);
+	--primary-color-hover: #226f92;
+	--secondary-color-hover: #ec6a37;
+	--btn-boxshadow-light: rgba(0, 0, 0, 0.3) 0rem 0.4rem 1.2rem;
+}
+
 /* repalce name */
 .alert-snippet {
 	font-size: 2rem;
