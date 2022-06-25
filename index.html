@@ -11,6 +11,7 @@
 			rel="stylesheet"
 		/>
 		<link rel="icon" type="image/x-icon" href="assets/speed_logo-cropped.png" />
+		<link rel="stylesheet" href="https://speed-cl.netlify.app/components.css" />
 	</head>
 	<body>
 		<div class="wrapper">
@@ -38,13 +39,45 @@
 				</div>
 			</div>
 			<div class="btn-wrapper">
-				<button class="btn">
+				<button class="btn btn-primary">
 					<a href="getstarted.html">Get Started</a>
 				</button>
-				<button class="btn btn-2">
+				<button class="btn btn-primary">
 					<a href="/components/avatar/avatar.html">Jump to components</a>
 				</button>
 			</div>
+		</div>
+		<div class="components-wrapper">
+			<input
+				type="range"
+				min="0"
+				max="100"
+				value="50"
+				class="vertical-sldier"
+				id="range"
+			/>
+			<img src="volume_up_black_24dp.svg" id="volume-icon" />
+			<div id="range-value"></div>
+
+			<script>
+				var slider = document.querySelector("#range");
+				var output = document.querySelector("#range-value");
+
+				output.innerHTML = slider.value;
+
+				slider.oninput = function () {
+					output.innerHTML = this.value;
+					if (slider.value === "0") {
+						document.querySelector("#volume-icon").src =
+							"volume_off_black_24dp.svg";
+						document.querySelector("#range").style.opacity = "0.5";
+					} else {
+						document.querySelector("#volume-icon").src =
+							"volume_up_black_24dp.svg";
+						document.querySelector("#range").style.opacity = "1";
+					}
+				};
+			</script>
 		</div>
 	</body>
 </html>
