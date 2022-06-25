@@ -189,7 +189,7 @@ iframe {
 
 /* text-container in image */
 #tom {
-	position: absolute;
+	position: relative;
 }
 
 /* text styling in card */
@@ -360,6 +360,10 @@ iframe {
 	width: 35rem;
 	padding: 1rem;
 	border-radius: 1rem;
+}
+
+#tom-textonly {
+	position: absolute;
 }
 
 #text-cont-textonly {

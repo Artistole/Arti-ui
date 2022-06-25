@@ -13,6 +13,11 @@
 	/* background-color: #18181a; */
 }
 
+body {
+	display: flex;
+	height: 100vh;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -52,6 +57,37 @@
 	color: black;
 	margin-left: -15rem;
 	animation: speed 400ms ease-in-out;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
+.btn {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
+
+.btn-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.components-wrapper {
+	background-color: #f3f6f9;
+	width: 50%;
 }
 
 @keyframes speed {
@@ -198,38 +234,4 @@
 	.btn-wrapper {
 		margin: -25rem 10rem 0rem 0rem;
 	}
-}
-
-.wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.btn {
-	font-size: 2rem;
-	font-weight: 600;
-	padding: 1rem;
-	background-color: var(--primary-color);
-	color: #fff;
-	border: none;
-	margin: 4rem 0rem 0rem 10rem;
-}
-
-.btn-2 {
-	font-size: 1.5rem;
-}
-
-a {
-	text-decoration: none;
-	color: #fff;
-}
-
-a:visited {
-	color: #fff;
-}
-
-.btn-wrapper {
-	display: flex;
-	flex-direction: column;
 }

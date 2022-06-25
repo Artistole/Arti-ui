@@ -178,7 +178,6 @@
 .btn {
 	padding: 1rem;
 	margin: 1rem;
-	font-size: 1.5rem;
 	border: none;
 	box-shadow: var(--btn-boxshadow-light);
 }
@@ -359,7 +358,7 @@
 
 /* text-container in image */
 #tom {
-	position: absolute;
+	position: relative;
 }
 
 /* text styling in card */
@@ -369,6 +368,10 @@
 	color: ivory;
 	width: fit-content;
 	font-size: 1.5rem;
+}
+
+#tom-textonly {
+	position: absolute;
 }
 
 /* author text styling in card */
