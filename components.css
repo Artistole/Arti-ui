@@ -79,36 +79,58 @@
 	font-size: 4rem;
 }
 
-.badge-heading {
-	font-size: 3rem;
-	font-weight: 500;
+.scl-badge {
+	display: inline-block;
+	height: 2rem;
+	width: 2rem;
+	border-radius: 99999rem;
+	position: relative;
+	bottom: 2rem;
+	right: 4rem;
 }
 
-/* avatar snippet */
-.badge-snippet {
-	font-size: 2rem;
-	font-weight: 500;
-	margin-top: 1rem;
+.scl-badge-online {
+	background-color: var(--active-badge);
 }
 
-/* avatar description */
-.badge-description {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
+.scl-badge-offline {
+	background-color: var(--offline-badge);
+}
+
+.scl-badge-away {
+	background-color: rgb(255, 217, 0);
+	right: 3.5rem;
+}
+
+.scl-badge-busy {
+	background-color: var(--busy-badge);
+	height: 1.5rem;
+	width: 1.5rem;
+	bottom: 1.5rem;
+	right: 3rem;
+}
+
+.scl-badge-icon {
+	height: 4rem;
+	width: 4rem;
+}
+
+.scl-badge-number {
+	background-color: red;
 	font-size: 1.5rem;
-	width: 90%;
-}
-
-#badge-container {
-	display: flex;
-	align-items: flex-end;
-	flex-wrap: wrap;
-}
-
-.button-snippet {
-	font-size: 2rem;
 	font-weight: 500;
-	margin-top: 1rem;
+	color: #fff;
+	border-radius: 9999999rem;
+	height: 2rem;
+	width: 2rem;
+	bottom: 5rem;
+	left: 2.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.scl-badge-wrapper {
+	margin-left: 2rem;
 }
 
 /* button heading */
@@ -363,7 +385,7 @@
 }
 
 /* badge icon styling */
-.badge-icon {
+/* .badge-icon {
 	height: 10rem;
 	width: 6rem;
 	position: relative;
@@ -372,7 +394,7 @@
 	filter: invert(32%) sepia(58%) saturate(2868%) hue-rotate(169deg)
 		brightness(132%) contrast(91%);
 	z-index: 1;
-}
+} */
 
 /* badge styling */
 #main {
