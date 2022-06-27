@@ -16,29 +16,8 @@
 	--btn-boxshadow-light: rgba(0, 0, 0, 0.3) 0rem 0.4rem 1.2rem;
 }
 
-/* repalce name */
-.alert-snippet {
-	font-size: 2rem;
-	font-weight: 500;
-	margin-top: 1rem;
-}
-
-/* alert-heading */
-.alert-heading {
-	font-size: 3rem;
-	font-weight: 500;
-}
-
-/* alert description */
-.alert-description {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	font-size: 1.5rem;
-	width: 90%;
-}
-
 /* alert box */
-.alert {
+.scl-alert {
 	padding: 1rem;
 	border: 1px solid black;
 	margin: 4rem;
@@ -53,79 +32,51 @@
 
 /* styling for alert boxes */
 
-#alert-primary {
+#scl-alert-primary {
 	background-color: var(--primary-color);
 }
 
-#alert-success {
+#scl-alert-success {
 	background-color: var(--success-color);
 }
 
-#alert-warning {
+#scl-alert-warning {
 	background-color: var(--warning-color);
 }
 
-#alert-error {
+#scl-alert-error {
 	background-color: var(--error-color);
 }
 
 /* avatar design */
-.avatar {
+.scl-avatar {
 	border-radius: 5rem;
 	margin: 1rem;
 }
 
 /* avatar parameters */
-.avatar-lg {
+.scl-avatar-lg {
 	height: 10rem;
 	width: 10rem;
 }
 
-.avatar-md {
+.scl-avatar-md {
 	height: 8rem;
 	width: 8rem;
 }
 
-.avatar-sm {
+.scl-avatar-sm {
 	height: 5rem;
 	width: 5rem;
 }
 
 /* text avatar design */
-.avatar-txt {
+.scl-avatar-txt {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: var(--primary-color);
 	font-size: 4rem;
-}
-
-/* text avatar container */
-#avatar-container {
-	display: flex;
-	align-items: baseline;
-}
-
-/* avatar heading */
-.avatar-heading {
-	font-size: 3rem;
-	font-weight: 500;
-}
-
-/* avatar snippet */
-.avatar-snippet {
-	font-size: 2rem;
-	font-weight: 500;
-	margin-top: 1rem;
-}
-
-/* avatar description */
-.avatar-description,
-.avatar-inner-description {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	font-size: 1.5rem;
-	width: 90%;
 }
 
 .badge-heading {

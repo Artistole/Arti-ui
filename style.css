@@ -69,6 +69,8 @@ body {
 .btn {
 	font-size: 2rem;
 	font-weight: 600;
+	border-radius: 1rem;
+	width: 23rem;
 }
 
 a {
