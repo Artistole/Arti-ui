@@ -168,12 +168,12 @@ iframe {
 	width: 90%;
 }
 
-.grid-container-2 {
+.scl-grid-container-2 {
 	display: grid;
 	grid-template-columns: repeat(2, 0.1fr);
 }
 
-.grid-cell {
+.scl-grid-cell {
 	background-color: var(--primary-color);
 	color: #fff;
 	margin: 1rem;
@@ -181,7 +181,7 @@ iframe {
 	text-align: center;
 }
 
-.grid-container-3 {
+.scl-grid-container-3 {
 	display: grid;
 	grid-template-columns: repeat(3, 0.15fr);
 }

@@ -168,12 +168,12 @@ iframe {
 	width: 90%;
 }
 
-.img-res {
+.scl-img-res {
 	max-width: 100%;
 	height: auto;
 }
 
-.round-image {
+.scl-round-image {
 	border-radius: 9rem;
 	width: 100px;
 	height: 100px;
