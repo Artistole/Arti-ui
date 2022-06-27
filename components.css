@@ -133,22 +133,8 @@
 	margin-left: 2rem;
 }
 
-/* button heading */
-.button-heading {
-	font-size: 3rem;
-	font-weight: 500;
-}
-
-/* button description */
-.button-description {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	font-size: 1.5rem;
-	width: 90%;
-}
-
 /* deafult button styling */
-.btn {
+.scl-btn {
 	padding: 1rem;
 	margin: 1rem;
 	border: none;
@@ -156,70 +142,70 @@
 }
 
 /* default button hover styling */
-.btn:hover {
+.scl-btn:hover {
 	cursor: pointer;
 }
 
 /* primary btn styling */
-.btn-primary {
+.scl-btn-primary {
 	background-color: var(--primary-color);
 	color: white;
 }
 
 /* primary btn hover styling */
-.btn-primary:hover {
+.scl-btn-primary:hover {
 	background-color: var(--primary-color-hover);
 	color: white;
 }
 
 /* secondary btn styling */
-.btn-secondary {
+.scl-btn-secondary {
 	background-color: var(--code-highlight);
 }
 
 /* secondary btn hover styling */
-.btn-secondary:hover {
+.scl-btn-secondary:hover {
 	background-color: var(--secondary-color-hover);
 }
 
 /* disbaled btn styling */
-.btn-disabled {
+.scl-btn-disabled {
 	background-color: var(--disabled-background);
 	color: var(--disabled-text);
 }
 
 /* disbaled btn hover styling */
-.btn-disabled:hover {
+.scl-btn-disabled:hover {
 	cursor: default;
 }
 
 /* btn outline styling */
-.btn-outline {
+.scl-scl-btn-outline {
 	background-color: #fff;
 	border: 2px solid var(--primary-color);
 	letter-spacing: 0.1rem;
 }
 
 /* btn outline hover styling */
-.btn-outline:hover {
+.scl-btn-outline:hover {
 	background-color: var(--primary-color);
 	color: #fff;
 }
 
 /* small btn outline styling */
-.btn-outline-small {
+.scl-btn-outline-small {
 	background-color: #fff;
 	border: 2px solid var(--code-highlight);
 	padding: 0.5rem;
 }
 
 /* small btn outline hover styling */
-.btn-outline-small:hover {
+.scl-btn-outline-small:hover {
 	background-color: var(--code-highlight);
 }
 
 /* btn text styling */
-.btn-text {
+.scl-btn-text {
 	background-color: transparent;
 	box-shadow: none;
 	text-decoration: underline;
@@ -228,12 +214,12 @@
 }
 
 /* btn text hover styling */
-.btn-text:hover {
+.scl-btn-text:hover {
 	background-color: #ececf6;
 }
 
 /* icon btn primary styling */
-.btn-icon-primary {
+.scl-btn-icon-primary {
 	background-color: var(--primary-color);
 	display: flex;
 	justify-content: baseline;
@@ -242,12 +228,12 @@
 }
 
 /* icon btn primary hover styling */
-.btn-icon-primary:hover {
+.scl-btn-icon-primary:hover {
 	background-color: var(--primary-color-hover);
 }
 
 /* icon btn secondary styling */
-.btn-icon-secondary {
+.scl-btn-icon-secondary {
 	background-color: var(--code-highlight);
 	display: flex;
 	justify-content: baseline;
@@ -255,40 +241,34 @@
 }
 
 /* icon btn secondary hover styling */
-.btn-icon-secondary:hover {
+.scl-btn-icon-secondary:hover {
 	background-color: var(--secondary-color-hover);
 }
 
 /* deafult icon btn styling */
-.icon {
+.scl-icon {
 	padding-right: 1rem;
 }
 
-/* icon wrapper */
-.btn-icon-wrapper {
-	display: flex;
-	flex-direction: row;
-}
-
 /* primary btn float styling */
-.btn-float-primary {
+.scl-btn-float-primary {
 	background-color: var(--primary-color);
 	border-radius: 9999rem;
 }
 
 /* primary btn float hover styling */
-.btn-float-primary:hover {
+.scl-btn-float-primary:hover {
 	background-color: var(--primary-color-hover);
 }
 
 /* secondary btn float styling */
-.btn-float-secondary {
+.scl-btn-float-secondary {
 	background-color: var(--code-highlight);
 	border-radius: 9999rem;
 }
 
 /* secondary btn float hover styling */
-.btn-float-secondary:hover {
+.scl-btn-float-secondary:hover {
 	background-color: var(--secondary-color-hover);
 }
 
@@ -523,32 +503,12 @@
 	box-shadow: var(--card-boxshadow);
 }
 
-.grid-snippet {
-	font-size: 2rem;
-	font-weight: 500;
-	margin-top: 1rem;
-}
-
-/* grid-heading */
-.grid-heading {
-	font-size: 3rem;
-	font-weight: 500;
-}
-
-/* grid description */
-.grid-description {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	font-size: 1.5rem;
-	width: 90%;
-}
-
-.grid-container-2 {
+.scl-grid-container-2 {
 	display: grid;
 	grid-template-columns: repeat(2, 0.1fr);
 }
 
-.grid-cell {
+.scl-grid-cell {
 	background-color: var(--primary-color);
 	color: #fff;
 	margin: 1rem;
@@ -556,7 +516,7 @@
 	text-align: center;
 }
 
-.grid-container-3 {
+.scl-grid-container-3 {
 	display: grid;
 	grid-template-columns: repeat(3, 0.15fr);
 }
