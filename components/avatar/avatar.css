@@ -124,29 +124,29 @@ a:visited {
 /* component css */
 
 /* avatar design */
-.avatar {
+.scl-avatar {
 	border-radius: 5rem;
 	margin: 1rem;
 }
 
 /* avatar parameters */
-.avatar-lg {
+.scl-avatar-lg {
 	height: 10rem;
 	width: 10rem;
 }
 
-.avatar-md {
+.scl-avatar-md {
 	height: 8rem;
 	width: 8rem;
 }
 
-.avatar-sm {
+.scl-avatar-sm {
 	height: 5rem;
 	width: 5rem;
 }
 
 /* text avatar design */
-.avatar-txt {
+.scl-avatar-txt {
 	display: flex;
 	justify-content: center;
 	align-items: center;

@@ -12,7 +12,7 @@
 	--code-highlight: #ffa07a;
 	--success-color: #47ffa9;
 	--warning-color: #fde047;
-	--error-color: red;
+	--error-color: #ff6666;
 }
 
 #logo-container {
@@ -174,7 +174,7 @@ iframe {
 }
 
 /* alert box */
-.alert {
+.scl-alert {
 	padding: 1rem;
 	border: 1px solid black;
 	margin: 4rem;
@@ -189,19 +189,19 @@ iframe {
 
 /* styling for alert boxes */
 
-#alert-primary {
+#scl-alert-primary {
 	background-color: var(--primary-color);
 }
 
-#alert-success {
+#scl-alert-success {
 	background-color: var(--success-color);
 }
 
-#alert-warning {
+#scl-alert-warning {
 	background-color: var(--warning-color);
 }
 
-#alert-error {
+#scl-alert-error {
 	background-color: var(--error-color);
 }
 
@@ -223,7 +223,7 @@ iframe {
 	margin-left: 17.5rem;
 }
 
-#alert-close {
+#scl-alert-close {
 	background-color: var(--primary-color);
 }
 
