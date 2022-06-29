@@ -168,23 +168,23 @@ iframe {
 	width: 90%;
 }
 
-.input {
+.scl-input {
 	border: 0.2rem solid rgba(0, 0, 0, 0.3);
 	width: 20rem;
 	height: 3rem;
 }
 
-.input:focus {
+.scl-input:focus {
 	border: 0.2rem solid black;
 }
 
-.input-validation {
+.scl-input-validation {
 	border: 0.2rem solid rgba(255, 0, 0, 0.5);
 	width: 20rem;
 	height: 3rem;
 }
 
-.input-validation-text {
+.scl-input-validation-text {
 	color: red;
 	font-size: 1.2rem;
 	font-weight: 500;

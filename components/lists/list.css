@@ -12,7 +12,7 @@
 	--code-highlight: #ffa07a;
 	--success-color: #00fa85;
 	--warning-color: #fde047;
-	--error-color: red;
+	--error-color: #ff6666;
 }
 
 #logo-container {
@@ -178,7 +178,7 @@ iframe {
 }
 
 /* list item styling */
-.list-item {
+.scl-list-item {
 	margin: 2rem;
 	padding: 1rem;
 	width: 10rem;
@@ -186,29 +186,29 @@ iframe {
 }
 
 /* list item hover  */
-.list-item:hover {
+.scl-list-item:hover {
 	background-color: #f1f1f1;
 }
 
 /* various list styling */
-.list-numbers {
+.scl-list-numbers {
 	list-style: decimal;
 }
 
-.list-roman {
+.scl-list-roman {
 	list-style: lower-roman;
 }
 
-.list-alphabet {
+.scl-list-alphabet {
 	list-style: lower-alpha;
 }
 
-.list-none {
+.scl-list-none {
 	list-style: none;
 }
 
 /* stacked list styling */
-.stacked-item {
+.scl-stacked-item {
 	font-size: 1.5rem;
 	list-style: none;
 	padding: 1rem;
@@ -220,20 +220,20 @@ iframe {
 }
 
 /* stacked list item styling */
-.primary {
+.scl-primary {
 	background-color: var(--primary-color);
 	color: white;
 }
 
-.success {
+.scl-success {
 	background-color: var(--success-color);
 }
 
-.warning {
+.scl-warning {
 	background-color: var(--warning-color);
 }
 
-.error {
+.scl-error {
 	background-color: var(--error-color);
 }
 
