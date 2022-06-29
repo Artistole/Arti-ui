@@ -14,6 +14,9 @@
 	--primary-color-hover: #226f92;
 	--secondary-color-hover: #ec6a37;
 	--btn-boxshadow-light: rgba(0, 0, 0, 0.3) 0rem 0.4rem 1.2rem;
+	--success-color: #47ffa9;
+	--warning-color: #fde047;
+	--error-color: #ff6666;
 }
 
 /* alert box */
@@ -552,77 +555,30 @@
 	height: 100px;
 }
 
-.input-snippet {
-	font-size: 2rem;
-	font-weight: 500;
-	margin-top: 1rem;
-}
-
-/* input heading */
-.input-heading {
-	font-size: 3rem;
-	font-weight: 500;
-}
-
-/* input description */
-.input-description {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	font-size: 1.5rem;
-	width: 90%;
-}
-
-.input {
+.scl-input {
 	border: 0.2rem solid rgba(0, 0, 0, 0.3);
 	width: 20rem;
 	height: 3rem;
 }
 
-.input:focus {
+.scl-input:focus {
 	border: 0.2rem solid black;
 }
 
-.input-validation {
+.scl-input-validation {
 	border: 0.2rem solid rgba(255, 0, 0, 0.5);
 	width: 20rem;
 	height: 3rem;
 }
 
-.input-validation-text {
+.scl-input-validation-text {
 	color: red;
 	font-size: 1.2rem;
 	font-weight: 500;
 }
 
-.list-snippet {
-	font-size: 2rem;
-	font-weight: 500;
-	margin-top: 1rem;
-}
-
-/* lists heading */
-.list-heading {
-	font-size: 3rem;
-	font-weight: 500;
-}
-
-/* lists description */
-.list-description {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	font-size: 1.5rem;
-	width: 90%;
-}
-
-/* list wrapper */
-.list-wrapper {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
 /* list item styling */
-.list-item {
+.scl-list-item {
 	margin: 2rem;
 	padding: 1rem;
 	width: 10rem;
@@ -630,29 +586,29 @@
 }
 
 /* list item hover  */
-.list-item:hover {
+.scl-list-item:hover {
 	background-color: #f1f1f1;
 }
 
 /* various list styling */
-.list-numbers {
+.scl-list-numbers {
 	list-style: decimal;
 }
 
-.list-roman {
+.scl-list-roman {
 	list-style: lower-roman;
 }
 
-.list-alphabet {
+.scl-list-alphabet {
 	list-style: lower-alpha;
 }
 
-.list-none {
+.scl-list-none {
 	list-style: none;
 }
 
 /* stacked list styling */
-.stacked-item {
+.scl-stacked-item {
 	font-size: 1.5rem;
 	list-style: none;
 	padding: 1rem;
@@ -664,20 +620,20 @@
 }
 
 /* stacked list item styling */
-.primary {
+.scl-primary {
 	background-color: var(--primary-color);
 	color: white;
 }
 
-.success {
+.scl-success {
 	background-color: var(--success-color);
 }
 
-.warning {
+.scl-warning {
 	background-color: var(--warning-color);
 }
 
-.error {
+.scl-error {
 	background-color: var(--error-color);
 }
 
@@ -747,32 +703,13 @@ img {
 	margin: -2rem 0rem 0rem -10rem;
 }
 
-.toast-snippet {
-	font-size: 2rem;
-	font-weight: 500;
-	margin-top: 1rem;
-}
-
-.toast-heading {
-	font-size: 3rem;
-	font-weight: 500;
-}
-
-/* toast description */
-.toast-description {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	font-size: 1.5rem;
-	width: 90%;
-}
-
-.toast-btn-wrapper {
+.scl-toast-btn-wrapper {
 	display: flex;
 	justify-content: space-between;
 	width: 60%;
 }
 
-.toast-btn {
+.scl-toast-btn {
 	font-weight: 600;
 	font-size: 1.5rem;
 	padding: 1rem;
@@ -782,7 +719,7 @@ img {
 	cursor: pointer;
 }
 
-.toast-wrapper {
+.scl-toast-wrapper {
 	width: 20rem;
 	font-size: 2rem;
 	display: none;
@@ -791,12 +728,7 @@ img {
 	padding: 0.8rem;
 }
 
-.toast-img {
-	padding-left: 0.5rem;
-	cursor: pointer;
-}
-
-.left {
+.scl-left {
 	color: #fff;
 	background-color: var(--primary-color);
 	position: fixed;

@@ -1,12 +1,12 @@
-const toastBtn = document.querySelector(".toast-btn");
+const sclToastBtn = document.querySelector(".scl-toast-btn");
 
-toastBtn.addEventListener("click", toast);
+sclToastBtn.addEventListener("click", sclToast);
 
-function toast() {
-	document.querySelector(".toast-wrapper").style.display = "flex";
+function sclToast() {
+	document.querySelector(".scl-toast-wrapper").style.display = "flex";
 	setTimeout(disappear, 3000);
 	function disappear() {
-		document.querySelector(".toast-wrapper").style.display = "none";
+		document.querySelector(".scl-toast-wrapper").style.display = "none";
 	}
 }
 

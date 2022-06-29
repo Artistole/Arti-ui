@@ -168,13 +168,13 @@ iframe {
 	width: 90%;
 }
 
-.toast-btn-wrapper {
+.scl-toast-btn-wrapper {
 	display: flex;
 	justify-content: space-between;
 	width: 60%;
 }
 
-.toast-btn {
+.scl-toast-btn {
 	font-weight: 600;
 	font-size: 1.5rem;
 	padding: 1rem;
@@ -184,7 +184,7 @@ iframe {
 	cursor: pointer;
 }
 
-.toast-wrapper {
+.scl-toast-wrapper {
 	width: 20rem;
 	font-size: 2rem;
 	display: none;
@@ -193,12 +193,7 @@ iframe {
 	padding: 0.8rem;
 }
 
-.toast-img {
-	padding-left: 0.5rem;
-	cursor: pointer;
-}
-
-.left {
+.scl-left {
 	color: #fff;
 	background-color: var(--primary-color);
 	position: fixed;
