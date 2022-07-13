@@ -63,7 +63,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 50%;
+	width: 100%;
 }
 
 .btn {
@@ -90,6 +90,13 @@ a:visited {
 .components-wrapper {
 	background-color: #f3f6f9;
 	width: 50%;
+}
+
+.index-btns {
+	font-size: 2rem;
+	font-weight: 600;
+	border-radius: 1rem;
+	width: 23rem;
 }
 
 @keyframes speed {
