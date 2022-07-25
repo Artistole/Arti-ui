@@ -175,7 +175,6 @@ iframe {
 	background-color: var(--primary-color);
 	color: #fff;
 	cursor: pointer;
-	z-index: 80;
 }
 
 .modal {
@@ -189,7 +188,7 @@ iframe {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: none;
-	z-index: 99999999;
+	z-index: 99;
 }
 
 .modal-header {
@@ -200,7 +199,6 @@ iframe {
 	height: 100%;
 	padding: 1rem 0rem 0rem 2rem;
 	justify-content: space-between;
-	/* padding: 0.3rem; */
 	border-top-left-radius: 1rem;
 	border-top-right-radius: 1rem;
 }
@@ -243,6 +241,7 @@ iframe {
 	bottom: 0;
 	z-index: 99;
 	overflow-y: scroll;
+	display: none;
 }
 
 @media all and (max-width: 645px) {

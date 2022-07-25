@@ -70,6 +70,7 @@ header {
 	background-color: #fff;
 	z-index: 2;
 	overflow-y: scroll;
+	box-shadow: var(--btn-boxshadow-light);
 }
 
 .hide {
@@ -91,7 +92,6 @@ header {
 	width: 3rem;
 	margin: 0.6rem;
 	background: var(--primary-color);
-	cursor: pointer;
 }
 
 .hamburger-container {
@@ -106,6 +106,7 @@ header {
 	list-style: none;
 	margin-top: 1rem;
 	margin-right: 4rem;
+	padding-left: 2rem;
 }
 
 .side-bar-item {
@@ -217,7 +218,7 @@ iframe {
 
 /* disbaled btn hover styling */
 .scl-btn-disabled:hover {
-	cursor: default;
+	cursor: not-allowed;
 }
 
 /* btn outline styling */
