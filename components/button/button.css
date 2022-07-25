@@ -12,7 +12,7 @@
 	--code-highlight: #ffa07a;
 	--disabled-background: rgba(0, 0, 0, 0.1);
 	--disabled-text: rgba(0, 0, 0, 0.4);
-	--primary-color-hover: #226f92;
+	--primary-color-hover: #17a3e4;
 	--secondary-color-hover: #ec6a37;
 	--btn-boxshadow-light: rgba(0, 0, 0, 0.3) 0rem 0.4rem 1.2rem;
 }
@@ -177,7 +177,7 @@ iframe {
 .scl-btn {
 	padding: 1rem;
 	margin: 1rem;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	border: none;
 	box-shadow: var(--btn-boxshadow-light);
 }
@@ -317,6 +317,16 @@ iframe {
 /* secondary btn float hover styling */
 .scl-btn-float-secondary:hover {
 	background-color: var(--secondary-color-hover);
+}
+
+.scl-btn-rnd {
+	padding: 1rem;
+	margin: 1rem;
+	font-size: 2rem;
+	border-radius: 100rem;
+	border: none;
+	width: fit-content;
+	box-shadow: var(--btn-boxshadow-light);
 }
 
 @media all and (max-width: 645px) {
