@@ -622,19 +622,22 @@
 /* stacked list item styling */
 .scl-primary {
 	background-color: var(--primary-color);
-	color: white;
+	font-weight: 500;
 }
 
 .scl-success {
 	background-color: var(--success-color);
+	font-weight: 500;
 }
 
 .scl-warning {
 	background-color: var(--warning-color);
+	font-weight: 500;
 }
 
 .scl-error {
 	background-color: var(--error-color);
+	font-weight: 500;
 }
 
 img {
