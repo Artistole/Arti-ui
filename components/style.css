@@ -1,18 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
-:root {
-	font-family: "Montserrat", sans-serif;
-	padding: 0px;
-	margin: 0px;
-	font-size: 62.5%;
-	box-sizing: border-box;
-	--primary-color: #21b0f2;
-	--header-bg-light-color: #fff;
-	--header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
-	--seperator: #8a8a8f;
-	--code-highlight: #ffa07a;
-	--btn-boxshadow-light: rgba(0, 0, 0, 0.3) 0rem 0.4rem 1.2rem;
-}
-
 #logo-container {
 	display: flex;
 }
@@ -45,11 +30,13 @@ header {
 }
 
 #github-icon {
-	margin: 2rem 3rem 0rem 2rem;
+	margin: 2rem 1rem 0rem 0rem;
 }
 
 #dark-mode {
+	margin-right: 2rem;
 	margin-top: 2rem;
+	height: 2.4rem;
 }
 
 #main-content {
@@ -76,25 +63,6 @@ header {
 	display: none;
 	font-size: 1.5rem;
 	color: rgba(0, 0, 0, 0.5);
-}
-
-#header-icon-container {
-	display: flex;
-}
-
-.hamburger {
-	height: 0.5rem;
-	width: 3rem;
-	margin: 0.6rem;
-	background: var(--primary-color);
-	cursor: pointer;
-}
-
-.hamburger-container {
-	margin-right: 1rem;
-	padding-top: 1.3rem;
-	height: 3.5rem;
-	cursor: pointer;
 }
 
 #side-bar-links {
@@ -146,111 +114,28 @@ iframe {
 	margin-bottom: 1rem;
 }
 
-/* component css */
-
-/* repalce name */
-.modal-snippet {
-	font-size: 2rem;
-	font-weight: 500;
-	margin-top: 1rem;
-}
-
-/* modal heading */
-.modal-heading {
-	font-size: 3rem;
-	font-weight: 500;
-}
-
-/* modal description */
-.modal-description {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	font-size: 1.5rem;
-	width: 90%;
-}
-
-.modal-initialise {
-	font-size: 2rem;
-	border: none;
-	background-color: var(--primary-color);
-	color: #fff;
-	cursor: pointer;
-}
-
-.modal {
-	border: 1px solid black;
-	border-radius: 1rem;
-	width: 30%;
-	box-shadow: var(--btn-boxshadow-light);
-	background-color: white;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: none;
-	z-index: 99;
-}
-
-.modal-header {
-	background-color: var(--primary-color);
-	font-size: 2rem;
-	color: white;
+#header-icon-container {
 	display: flex;
-	height: 100%;
-	padding: 1rem 0rem 0rem 2rem;
-	justify-content: space-between;
-	border-top-left-radius: 1rem;
-	border-top-right-radius: 1rem;
 }
 
-.modal-close {
-	border: none;
-	background-color: transparent;
+.hamburger {
+	height: 0.5rem;
+	width: 3rem;
+	margin: 0.6rem;
+	background: var(--primary-color);
 	cursor: pointer;
 }
 
-.modal-content {
-	font-size: 1.5rem;
-	padding: 2rem;
-}
-
-.action-btn {
-	display: flex;
-	justify-content: space-evenly;
-	padding: 0rem 0rem 1rem 0rem;
-}
-
-.action {
-	font-size: 2rem;
-	background-color: transparent;
-	border: 0.2rem solid var(--primary-color);
+.hamburger-container {
+	margin-right: 1rem;
+	padding-top: 1.3rem;
+	height: 3.5rem;
 	cursor: pointer;
-	box-shadow: var(--btn-boxshadow-light);
-}
-
-.action:hover {
-	background-color: var(--primary-color);
-	color: #fff;
-}
-
-#overlay {
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	z-index: 99;
-	overflow-y: scroll;
-	display: none;
 }
 
 @media all and (max-width: 645px) {
-	.modal {
-		width: 100%;
-	}
-
 	#main-content {
-		margin-left: 1rem;
+		margin-left: 0rem;
 	}
 
 	#component {
@@ -265,20 +150,21 @@ iframe {
 	#logo-name {
 		font-size: 1.5rem;
 		margin-top: 1rem;
-		margin-left: -5.5rem;
+		margin-left: -5rem;
 	}
 
 	#logo {
-		margin-left: -6rem;
+		margin-left: -4rem;
 	}
 
 	#dark-mode {
 		margin-top: 2.5rem;
-		margin-right: 0rem;
+		padding-right: 1rem;
+		margin-right: 1rem;
 	}
 
 	#github-icon {
-		margin: 2.5rem 1rem 0rem 2rem;
+		margin: 2.5rem 1rem 0rem 0rem;
 	}
 
 	.hamburger-container {
@@ -296,7 +182,7 @@ iframe {
 
 @media all and (max-width: 340px) {
 	#main-content {
-		margin-left: 1rem;
+		margin-left: 0rem;
 	}
 
 	#component {

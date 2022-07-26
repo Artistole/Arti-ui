@@ -15,7 +15,7 @@
 	--error-color: #ff6666;
 }
 
-#logo-container {
+/* #logo-container {
 	display: flex;
 }
 
@@ -117,16 +117,16 @@ a:visited {
 .highlight {
 	color: var(--primary-color);
 	font-weight: 700;
-}
+} */
 
 /* highlighting code */
-.highlight-code {
+/* .highlight-code {
 	color: var(--code-highlight);
 	font-weight: 700;
-}
+} */
 
 /* iframe */
-iframe {
+/* iframe {
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 }
@@ -148,7 +148,7 @@ iframe {
 	padding-top: 1.3rem;
 	height: 3.5rem;
 	cursor: pointer;
-}
+} */
 
 /* component css */
 
@@ -207,7 +207,7 @@ iframe {
 
 /* styling for alert icons */
 
-#icon-warning {
+/* #icon-warning {
 	margin-left: 17rem;
 }
 
@@ -217,11 +217,11 @@ iframe {
 
 #icon-success {
 	margin-left: 17.5rem;
-}
+} */
 
-#icon-primary {
+/* #icon-primary {
 	margin-left: 17.5rem;
-}
+} */
 
 #scl-alert-close {
 	background-color: var(--primary-color);
@@ -235,104 +235,13 @@ iframe {
 }
 
 @media all and (max-width: 645px) {
-	#main-content {
-		margin-left: 0rem;
-	}
-
-	#component {
-		margin-right: 0rem;
-		margin-top: 12rem;
-	}
-
-	#side-bar-links {
-		padding-left: 2rem;
-	}
-
-	#logo-name {
-		font-size: 1.5rem;
-		margin-top: 1rem;
-		margin-left: -5rem;
-	}
-
-	#logo {
-		margin-left: -4rem;
-	}
-
-	#dark-mode {
-		margin-top: 2.5rem;
-		padding-right: 1rem;
-		margin-right: 1rem;
-	}
-
-	#github-icon {
-		margin: 2.5rem 1rem 0rem 0rem;
-	}
-
-	.hamburger-container {
-		padding-top: 1.8rem;
-	}
-
-	.side-bar {
-		overflow-y: scroll;
-	}
-
-	.side-bar-note {
-		display: block;
-	}
-
-	.alert {
+	.scl-alert {
 		width: 80%;
 	}
 }
 
 @media all and (max-width: 1180px) {
-	.alert {
+	.scl-alert {
 		width: 80%;
-	}
-}
-
-@media all and (max-width: 340px) {
-	#main-content {
-		margin-left: 0rem;
-	}
-
-	#component {
-		margin-right: 0rem;
-		margin-top: 12rem;
-	}
-
-	#side-bar-links {
-		padding-left: 2rem;
-	}
-
-	#logo-name {
-		font-size: 1.5rem;
-		margin-top: 1rem;
-		margin-left: -5rem;
-	}
-
-	#logo {
-		margin-left: -8rem;
-	}
-
-	#dark-mode {
-		margin-top: 2.5rem;
-		margin-right: -1rem;
-	}
-
-	#github-icon {
-		margin: 2.5rem 1rem 0rem 2rem;
-	}
-
-	.hamburger-container {
-		padding-top: 1.8rem;
-	}
-
-	.side-bar {
-		overflow-y: scroll;
-	}
-
-	.side-bar-note {
-		display: block;
 	}
 }
