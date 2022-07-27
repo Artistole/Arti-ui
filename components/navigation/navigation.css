@@ -40,6 +40,7 @@
 .header-component {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	background-color: var(--navbar-color-lighttheme);
 	width: 70%;
 	box-shadow: 0.75em 0.75em 1em var(--header-boxshadow-light-color);
@@ -112,4 +113,16 @@
 
 .subnav > .link:focus + .subnav-content-hamburger {
 	display: block;
+}
+
+@media all and (max-width: 645px) {
+	.header-component {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 340px) {
+	.header-component {
+		width: 100%;
+	}
 }
