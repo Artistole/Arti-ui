@@ -230,7 +230,7 @@ iframe {
 @media all and (max-width: 340px) {
 	@keyframes speed {
 		0% {
-			margin-right: -60vw;
+			margin-right: -80vw;
 		}
 	}
 
