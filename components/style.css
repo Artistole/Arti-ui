@@ -1,3 +1,19 @@
+:root {
+	font-family: "Montserrat", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-size: 62.5%;
+	box-sizing: border-box;
+	--primary-color: #21b0f2;
+	--header-bg-light-color: #fff;
+	--header-boxshadow-light-color: rgba(0, 0, 0, 0.3);
+	--seperator: #8a8a8f;
+	--code-highlight: #ffa07a;
+	--success-color: #47ffa9;
+	--warning-color: #fde047;
+	--error-color: #d87a7a;
+}
+
 #logo-container {
 	display: flex;
 }
@@ -53,6 +69,15 @@ header {
 	background-color: #fff;
 	z-index: 2;
 	overflow-y: scroll;
+	border-left: 0.2rem solid #d7d7d7;
+	animation: speed 500ms ease-in-out;
+	box-shadow: 0.75em 0.75em 6em var(--header-boxshadow-light-color);
+}
+
+@keyframes speed {
+	0% {
+		margin-right: -20vw;
+	}
 }
 
 .hide {
@@ -119,11 +144,12 @@ iframe {
 }
 
 .hamburger {
-	height: 0.5rem;
+	height: 0.4rem;
 	width: 3rem;
 	margin: 0.6rem;
 	background: var(--primary-color);
 	cursor: pointer;
+	display: block;
 }
 
 .hamburger-container {
@@ -133,7 +159,28 @@ iframe {
 	cursor: pointer;
 }
 
+.hamburger1 {
+	display: none;
+	transition: 500ms ease-in-out;
+}
+
+.hamburger2 {
+	transform: translate(0px, 10px) rotate(45deg);
+	transition: 300ms ease-in-out;
+}
+
+.hamburger3 {
+	transform: rotate(-45deg);
+	transition: 300ms ease-in-out;
+}
+
 @media all and (max-width: 645px) {
+	@keyframes speed {
+		0% {
+			margin-right: -40vw;
+		}
+	}
+
 	#main-content {
 		margin-left: 0rem;
 	}
@@ -181,6 +228,12 @@ iframe {
 }
 
 @media all and (max-width: 340px) {
+	@keyframes speed {
+		0% {
+			margin-right: -40vw;
+		}
+	}
+
 	#main-content {
 		margin-left: 0rem;
 	}
