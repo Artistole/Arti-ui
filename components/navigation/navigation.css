@@ -113,3 +113,7 @@
 .subnav > .link:focus + .subnav-content-hamburger {
 	display: block;
 }
+
+.navbar-href {
+	color: blue !important;
+}
