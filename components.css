@@ -934,8 +934,8 @@ img {
 	color: var(--navbar-text-color);
 	font-size: 2rem;
 	padding: 2rem;
-	margin-bottom: 3rem;
-	position: fixed;
+	position: sticky;
+	top: 0;
 }
 
 .scl-dropdown-name {
